@@ -8,9 +8,9 @@ export function NavBar(props) {
         <div className="nav">
             <nav id="examples">
                 <div className="nav-sig">
-                    <p className="signature">
+                    <div className="signature">
                         <img src="img/general/roshni.png" alt="roshni in signature style"></img>
-                    </p>
+                    </div>
                 </div>
                 <div className="links">
                     <ul className='example'>

@@ -3,8 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import "./css/style.css";
 //import 'animate.css';
-import {NavBar} from './js/Navbar.js'
-import {Home} from './js/Home.js'
+import {NavBar} from './js/Navbar.js';
+import {Home} from './js/Home.js';
+import {Journey} from './js/Journey.js';
+import {Resume} from './js/resume.js';
+import {About} from './js/About.js';
 
 
 function App() {
@@ -59,6 +62,19 @@ function App() {
     navigate("/projects");
   }
 
+  function handleClickFreshman() {
+    navigate("/journey/freshman");
+  }
+  function handleClickSophomore() {
+    navigate("/journey/sophomore");
+  }
+  function handleClickJunior() {
+    navigate("/journey/junior");
+  }
+  function handleClickSenior() {
+    navigate("/journey/senior");
+  }
+
   return (
 
     // rendering the app
@@ -68,7 +84,7 @@ function App() {
       <Route path="/journey" element={
         <>
           {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickFreshman={handleClickFreshman} handleClickSophomore={handleClickSophomore} handleClickJunior={handleClickJunior} handleClickSenior={handleClickSenior}/>
           }
         </>
       } />
@@ -76,7 +92,7 @@ function App() {
       <Route path="/resume" element={
         <>
           {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+            <Resume handleClick={handleClickJourney} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
           }
         </>
       } />
@@ -84,7 +100,7 @@ function App() {
       <Route path="/about" element={
         <>
           {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+            <About handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
           }
         </>
       } />
@@ -132,7 +148,7 @@ function App() {
         <>
           {/* put components here */
            
-              <Home handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+              <Home handleClick={handleClickJourney} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}/>
               
            
           }
