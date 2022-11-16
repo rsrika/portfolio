@@ -5,11 +5,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import projectsData from "./data/data.json"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <App projectList={projectsData}/>
     </BrowserRouter>
     
   </React.StrictMode>

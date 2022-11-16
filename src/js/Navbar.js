@@ -1,21 +1,29 @@
-//import 'animate.css';
 import React from 'react'
-
 
 export function NavBar(props) {
 
+    let navImg = () => {
+        if(props.isPink) {
+            return (<img id="nav-img" className="pink-text" src="img/general/roshni-pink.png" alt="roshni in signature style" onClick={() => { props.handleClickHome()}}></img>);
+        }
+        else {
+            return (<img id="nav-img" className="white-text" src="img/general/roshni.png" alt="roshni in signature style" onClick={() => { props.handleClickHome()}}></img>);
+        }
+    }
+
+    
     return (
         <div className="nav">
             <nav id="examples">
                 <div className="nav-sig">
                     <div className="signature">
-                        <img src="img/general/roshni.png" alt="roshni in signature style"></img>
+                        {navImg()}
                     </div>
                 </div>
                 <div className="links">
                     <ul className='example'>
                         <li>
-                            <button className="fs-6 navlink home active hover1 hover1-1"
+                            <button className="fs-6 navlink home hover1 hover1-1"
                                 onClick={
                                     () => {
                                         props.handleClickHome()

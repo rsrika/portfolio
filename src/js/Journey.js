@@ -4,6 +4,8 @@ import { NavBar } from './Navbar';
 import { Footer } from './Components';
 
 export function Journey(props) {
+    
+
     function MakeLabels(props) {
         return (
             <div className='line'>
@@ -22,14 +24,15 @@ export function Journey(props) {
         );
     }
     return(
-        <div className="journey">
-            <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} />
-            <div className='spacer'/>
+        <div className="journeyPage">
+            <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={true} />
+            
+            {/* <div className='spacer'/>
             <div className="container">
                 <h1 className='big-letters'>MY UW JOURNEY</h1>
                 <div className='half-spacer'></div>
-                <div className='row'>
-                    <div className='col roadmap'>
+                <div className='row journey-container'>
+                    <div className='col journey-side roadmap'>
                         <div className='freshman'>
                             <MakeLabels className="freshman" year="freshman" handleClick={props.handleClickFreshman}/>
                         </div>
@@ -49,8 +52,8 @@ export function Journey(props) {
                         
                         
                     </div>
-                    <div className='col'>
-                        <div className='half-spacer'></div>
+                    <div className='col journey-side'>
+                       
                         <div>
                             <img src="./img/general/myJourneyVisual.png" alt="a cartoon girl looking at mountains"/>
                             
@@ -58,7 +61,7 @@ export function Journey(props) {
                     </div>
                 </div>
             </div>
-            <div className="spacer"></div>
+            <div className="spacer"></div> */}
             <Footer handleClickHome={props.handleClickHome}/>
         </div>
 

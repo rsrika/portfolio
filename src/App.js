@@ -8,31 +8,37 @@ import {Home} from './js/Home.js';
 import {Journey} from './js/Journey.js';
 import {Resume} from './js/resume.js';
 import {About} from './js/About.js';
+import ProjectsView from './js/projects';
 
 
-function App() {
+function App(props) {
   let navigate = useNavigate();
   function handleClickHome() {
+    console.log("handleClickHome");
     document.querySelector(".about").classList.remove("active");
     document.querySelector(".journey").classList.remove("active");
     document.querySelector(".resume").classList.remove("active");
     document.querySelector(".projects").classList.remove("active");
     let element = document.querySelector(".home");
+    console.log("element from home" , element);
     element.classList.add("active");
     navigate("/");
   }
 
   function handleClickJourney() {
+    console.log("handleClickJourney");
     document.querySelector(".home").classList.remove("active");
     document.querySelector(".about").classList.remove("active");
     document.querySelector(".resume").classList.remove("active");
     document.querySelector(".projects").classList.remove("active");
     let element = document.querySelector(".journey");
+    console.log("classes from Journey" , element.classList);
     element.classList.add("active");
     navigate("/journey");
   }
 
   function handleClickResume() {
+    console.log("handleClickResume");
     document.querySelector(".home").classList.remove("active");
     document.querySelector(".journey").classList.remove("active");
     document.querySelector(".about").classList.remove("active");
@@ -43,6 +49,7 @@ function App() {
   }
 
   function handleClickAbout() {
+    console.log("handleClickAbout");
     document.querySelector(".home").classList.remove("active");
     document.querySelector(".journey").classList.remove("active");
     document.querySelector(".resume").classList.remove("active");
@@ -53,6 +60,7 @@ function App() {
   }
 
   function handleClickProjects() {
+    console.log("handleClickProjects");
     document.querySelector(".home").classList.remove("active");
     document.querySelector(".journey").classList.remove("active");
     document.querySelector(".resume").classList.remove("active");
@@ -75,6 +83,11 @@ function App() {
     navigate("/journey/senior");
   }
 
+  function handleClickIndv(project) {
+    navigate(project);
+  }
+
+ 
   return (
 
     // rendering the app
@@ -84,7 +97,7 @@ function App() {
       <Route path="/journey" element={
         <>
           {/* put components here */
-            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickFreshman={handleClickFreshman} handleClickSophomore={handleClickSophomore} handleClickJunior={handleClickJunior} handleClickSenior={handleClickSenior}/>
+            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickFreshman={handleClickFreshman} handleClickSophomore={handleClickSophomore} handleClickJunior={handleClickJunior} handleClickSenior={handleClickSenior} />
           }
         </>
       } />
@@ -107,15 +120,15 @@ function App() {
        <Route path="/projects" element={
         <>
          {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
-          }
+            <ProjectsView data={props.projectList} handleClickIndv={handleClickIndv} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+         }
         </>
       } />
 
       <Route path="/journey/freshman" element={
         <>
           {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}/>
           }
         </>
       } />
@@ -123,7 +136,7 @@ function App() {
       <Route path="/journey/sophomore" element={
         <>
           {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}  />
           }
         </>
       } />
@@ -139,7 +152,7 @@ function App() {
       <Route path="/journey/senior" element={
         <>
           {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}  />
           }
         </>
       } />
@@ -148,7 +161,7 @@ function App() {
         <>
           {/* put components here */
            
-              <Home handleClick={handleClickJourney} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}/>
+              <Home handleClick={handleClickJourney} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
               
            
           }

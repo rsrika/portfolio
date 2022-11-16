@@ -1,10 +1,11 @@
 import React from 'react'
 
 export function Footer(props) {
+
     return (
         <div>
-            <footer id="sticky-footer" class="flex-shrink-0 py-3 text-white">
-                <div class="container row">
+            <footer id="sticky-footer" className="flex-shrink-0 py-3 text-white">
+                <div className="container row">
                     <div className="col">
                         <img id="footerIcon" src="img/general/roshni.png" alt="Roshni in white signature style" onClick={
                                     () => {

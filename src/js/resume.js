@@ -5,9 +5,13 @@ import { Footer } from './Components';
 
 export function Resume(props) {
     window.scrollTo(0, 0);
+
+   
+    
     return (
-    <div className="resume">
-        <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} />   
+    <div className="resumePage">
+        <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={true} /> 
+        
         <div className='half-spacer'/>     
         <div className="container">
             <div className="row">
@@ -38,11 +42,12 @@ export function Resume(props) {
                                 </strong>
                                 <br/>
                                 <i className='pink-text'>June 2022 - September 2022 | Bellevue, WA</i>
-                                <ul>
+                            </p>
+                            <ul>
                                 <li>Designed and implemented a Log Search tool using ELK Stack</li>
                                 <li>Reduced time spent querying logs from 1 hour to 2 minutes, saving engineers 10 hours of debug time a week.</li>
-                                </ul>
-                            </p>
+                            </ul>
+                            
                         </div>
                         <div className='row'>
                             <p>
@@ -50,11 +55,12 @@ export function Resume(props) {
                                 </strong>
                                 <br/>
                                 <i className='pink-text'>June 2021 - August 2021 | Remote</i>
-                                <ul>
-                                    <li>Created a web application as part of Team Firespot on wildfires in the US using React and Plasmic.</li>
-                                    <li>Utilized Firebase and Google APIs to display map data and send notifications regarding nearby wildfires.</li>
-                                </ul>
                             </p>
+                            <ul>
+                                <li>Created a web application as part of Team Firespot on wildfires in the US using React and Plasmic.</li>
+                                <li>Utilized Firebase and Google APIs to display map data and send notifications regarding nearby wildfires.</li>
+                            </ul>
+                           
                         </div>
                         <div className='row'>
                             <p>
@@ -62,11 +68,12 @@ export function Resume(props) {
                                 </strong>
                                 <br/>
                                 <i className='pink-text'>March 2021 - November 2021 | Seattle, WA</i>
-                                <ul>
-                                    <li>Worked with Cynthia del Rosario and other diversity officers to run a virtual hackathon for middle and high-school students</li>
-                                    <li>Created instructional videos and mentored participants on making prototypes in Figma</li>
-                                </ul>
-                            </p>
+                                </p>
+                            <ul>
+                                <li>Worked with Cynthia del Rosario and other diversity officers to run a virtual hackathon for middle and high-school students</li>
+                                <li>Created instructional videos and mentored participants on making prototypes in Figma</li>
+                            </ul>
+                            
                         </div>
                         <hr/>
                         <div className='row'>
@@ -80,17 +87,18 @@ export function Resume(props) {
                                 <br/>
                                 <i className='pink-text'>September 2020 - March 2024 | Seattle, WA</i>
                                 <br/>
-                                <p>B.S. Informatics; Interdisciplinary Honors Program</p>
-                                <ul>
-                                    {/* <li>September 2020 - March 2024 | Seattle, WA</li>
-                                    <li></li> */}
-                                    
-                                </ul>
                             </p>
+                            <p>B.S. Informatics; Interdisciplinary Honors Program</p>
+                            <ul>
+                                {/* <li>September 2020 - March 2024 | Seattle, WA</li>
+                                <li></li> */}
+                                
+                            </ul>
+                            
                         </div>
                         <hr/>
                         <div className='row'>
-                            <p>
+                            <div>
                                 <h4>
                                     <strong className='bolded-words'>Awards and Activities</strong>
                                 </h4>
@@ -100,7 +108,7 @@ export function Resume(props) {
                                     <li>Member, Society of Women Engineers (SWE)</li>
                                     <li>Dean's List: Fall 2020 - Spring 2022</li>
                                 </ul>
-                            </p>
+                            </div>
                         </div>
                     </div>
 
@@ -173,24 +181,26 @@ export function Resume(props) {
                     <div className='row'>
                         
                         <p>
-                                <strong>Candy Searcher - Client-Side Development
-                                </strong>
-                                <br/>
-                                <i>March 2021 - June 2021 | Seattle, WA</i>
-                                <br/>
-                                <p><a href="https://github.com/info-201a-au20/final-project-movies">Candy Website GitHub</a></p>
+                            <strong>Candy Searcher - Client-Side Development
+                            </strong>
+                            <br/>
+                            <i>March 2021 - June 2021 | Seattle, WA</i>
+                            <br/>
+                        </p> 
+                        <p><a href="https://github.com/info-201a-au20/final-project-movies">Candy Website GitHub</a></p>
                               
-                        </p>                        
+                                               
                         <br/>
                         <p>
-                                <strong>The Movie Times - Technical Foundations of Informatics
-                                </strong>
-                                <br/>
-                                <i>September 2020 - December 2020 | Seattle, WA</i>
-                                <br/>
-                                <p><a href="https://github.com/info340-wi21/project-2-rsrika">Movie Website GitHub</a></p>
-                                
+                            <strong>The Movie Times - Technical Foundations of Informatics
+                            </strong>
+                            <br/>
+                            <i>September 2020 - December 2020 | Seattle, WA</i>
+                            <br/>
                         </p>
+                        <p><a href="https://github.com/info340-wi21/project-2-rsrika">Movie Website GitHub</a></p>
+                                
+                       
 
                     </div>
                 </div>
