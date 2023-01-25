@@ -5,7 +5,7 @@
       "ProjectName": "CandySearcher",
       "ProjectRole": "Front-End Developer",
       "Tags": "React.js, HTML/CSS, JavaScript, Firebase",
-      "Image1": "/img/projects/candy_logo.png",
+      "Image1": "/img/projects/CandySearch/candy-website.png",
       "ProjectOverview": "Developed a reactive web application to enable search and storage of candy based on dietary and taste preferences."
       
       
@@ -15,18 +15,10 @@
       "ProjectName": "Conscious",
       "ProjectRole": "Front-End Developer",
       "Tags": "React.js, Usability Testing, Unit Testing, Software Architecture",
-      "Image1": "/img/projects/conscious_description_pic.png",
+      "Image1": "/img/projects/Conscious/conscious_description_pic.png",
       "ProjectOverview": "Created a website to raise awareness in young adults about the environmental impact of the fast fashion industry while simultaneously promoting alternative, sustainable brands."
       
-    },
-    {
-      "ProjectNumber": 3,
-      "ProjectName": "ThriftEats",
-      "ProjectRole": "Front-End Developer and Designer" ,
-      "Tags": "Figma, JavaScript, React.js",
-      "Image1": "/img/projects/newlogo_circle 1.png",
-      "ProjectOverview": "Designed and developed an interactive web app that aims to streamline the budgeting, shopping, and planning process of buying groceries. "
-      
     }
+    
    
    ]

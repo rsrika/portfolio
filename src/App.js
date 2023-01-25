@@ -2,13 +2,14 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import "./css/style.css";
-//import 'animate.css';
+
 import {NavBar} from './js/Navbar.js';
 import {Home} from './js/Home.js';
 import {Journey} from './js/Journey.js';
 import {Resume} from './js/resume.js';
 import {About} from './js/About.js';
 import ProjectsView from './js/projects';
+import { IndvProjects } from './js/indvProjects';
 
 
 function App(props) {
@@ -125,7 +126,16 @@ function App(props) {
         </>
       } />
 
-      <Route path="/journey/freshman" element={
+      <Route path="/project/:projectname" element={
+        <>
+         {/* put components here */
+            <IndvProjects data={props.projectListFull} handleClickIndv={handleClickIndv} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
+         }
+        </>
+      } />
+
+
+      <Route path="/journey/:year" element={
         <>
           {/* put components here */
             <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}/>
@@ -133,31 +143,7 @@ function App(props) {
         </>
       } />
 
-      <Route path="/journey/sophomore" element={
-        <>
-          {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}  />
-          }
-        </>
-      } />
-
-      <Route path="/journey/junior" element={
-        <>
-          {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
-          }
-        </>
-      } />
-
-      <Route path="/journey/senior" element={
-        <>
-          {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}  />
-          }
-        </>
-      } />
-
-      <Route path="/" element={
+      <Route path="/*" element={
         <>
           {/* put components here */
            

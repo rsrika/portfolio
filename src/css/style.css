@@ -43,10 +43,12 @@ nav {
     margin-right: 60px;
     position: relative;
     text-decoration: none;
+    
   }
   
   nav ul {
     font-weight: bold;
+    font-size: larger;
     text-decoration: none;
     margin: 0;
   }
@@ -80,13 +82,18 @@ nav {
     text-decoration-thickness: 4px;
   }
   
-  #examples .example .hover1 {
-    transition: 0.2s;
-    position: relative;
-  }
+
   
   #examples .example .hover1:before,
-  #examples .example .hover1:after {
+  #examples .example .hover1:after, 
+  #examples .example .hover2:before,
+  #examples .example .hover2:after, 
+  #examples .example .hover3:before,
+  #examples .example .hover3:after,
+  #examples .example .hover4:before,
+  #examples .example .hover4:after, 
+  #examples .example .hover5:before,
+  #examples .example .hover5:after  {
     content: "";
     position: absolute;
     bottom: -3px;
@@ -100,104 +107,39 @@ nav {
   }
   
   #examples .hover1:hover.hover1:before,
-  #examples .hover1:hover.hover1:after {
+  #examples .hover1:hover.hover1:after, 
+  #examples .hover2:hover.hover2:before,
+  #examples .hover2:hover.hover2:after, 
+  #examples .hover3:hover.hover3:before,
+  #examples .hover3:hover.hover3:after, 
+  #examples .hover4:hover.hover4:before,
+  #examples .hover4:hover.hover4:after, 
+  #examples .hover5:hover.hover5:before,
+  #examples .hover5:hover.hover5:after {
     width: 100%;
     opacity: 1;
   }
   
   #examples .example .hover1.hover1-1:before,
-  #examples .example .hover1.hover1-1:after {
-    left: 0;
-  }
-  
-  #examples .example .hover2 {
-    transition: 0.2s;
-    position: relative;
-  }
-  
-  #examples .example .hover2:before,
-  #examples .example .hover2:after {
-    content: "";
-    position: absolute;
-    bottom: -3px;
-    width: 0px;
-    height: 5px;
-    margin: 1px 0 0;
-    transition: 0.2s;
-    transition-duration: 0.75s;
-    opacity: 0;
-    background-color: #fb5a67;
-  }
-  
-  #examples .hover2:hover.hover2:before,
-  #examples .hover2:hover.hover2:after {
-    width: 100%;
-    opacity: 1;
-  }
-  
+  #examples .example .hover1.hover1-1:after, 
   #examples .example .hover2.hover2-1:before,
-  #examples .example .hover2.hover2-1:after {
-    left: 0;
-  }
-  
-  #examples .example .hover3 {
-    transition: 0.2s;
-    position: relative;
-  }
-  
-  #examples .example .hover3:before,
-  #examples .example .hover3:after {
-    content: "";
-    position: absolute;
-    bottom: -3px;
-    width: 0px;
-    height: 5px;
-    margin: 1px 0 0;
-    transition: 0.2s;
-    transition-duration: 0.75s;
-    opacity: 0;
-    background-color: #fb5a67;
-  }
-  
-  #examples .hover3:hover.hover3:before,
-  #examples .hover3:hover.hover3:after {
-    width: 100%;
-    opacity: 1;
-  }
-  
+  #examples .example .hover2.hover2-1:after, 
   #examples .example .hover3.hover3-1:before,
-  #examples .example .hover3.hover3-1:after {
+  #examples .example .hover3.hover3-1:after,
+  #examples .example .hover4.hover4-1:before,
+  #examples .example .hover4.hover4-1:after,
+  #examples .example .hover5.hover5-1:before,
+  #examples .example .hover5.hover5-1:after{
     left: 0;
   }
   
-  #examples .example .hover4 {
+  #examples .example .hover1, 
+  #examples .example .hover2, 
+  #examples .example .hover3,
+  #examples .example .hover4, 
+  #examples .example .hover5 {
     transition: 0.2s;
     position: relative;
-  }
-  
-  #examples .example .hover4:before,
-  #examples .example .hover4:after {
-    content: "";
-    position: absolute;
-    bottom: -3px;
-    width: 0px;
-    height: 5px;
-    margin: 1px 0 0;
-    transition: 0.2s;
-    transition-duration: 0.75s;
-    opacity: 0;
-    background-color: #fb5a67;
-  }
-  
-  #examples .hover4:hover.hover4:before,
-  #examples .hover4:hover.hover4:after {
-    width: 100%;
-    opacity: 1;
-  }
-  
-  #examples .example .hover4.hover4-1:before,
-  #examples .example .hover4.hover4-1:after {
-    left: 0;
   }
   
   .name {
@@ -222,7 +164,7 @@ nav {
 .split-color {
     margin: 0;
     height: 100%;
-    background: repeating-linear-gradient(to right, #fb5a67, #fb5a67 39.99%, #ffffff 40.00%, #ffffff 100%);
+    background: repeating-linear-gradient(to right, #fb5a67, #fb5a67 29.99%, #ffffff 30.00%, #ffffff 100%);
 }
 
 .home-container {
@@ -231,7 +173,7 @@ nav {
 }
 
 .col-picture {
-    flex-basis: 50%;
+    flex-basis: 20%;
 }
 
 
@@ -243,7 +185,7 @@ nav {
 .picture {
     width: 65%;
     height: max-content;
-    margin-left: 30%; 
+    margin-left: 18%; 
     display: block;
     box-shadow: 5px 5px 4px #00000055;
 }
@@ -283,6 +225,9 @@ nav {
 
 .white-text {
     color: white;
+}
+.grey-text {
+    color: gray;
 }
 .pink-button {
     background-color: #fb5a67;
@@ -329,12 +274,13 @@ nav {
     color:#fb5a67;
 }
 
+
 .button {
     display: inline-block;
     padding: 0.5rem 0.75rem;
     color: black;
     border: 2px solid black;
-    border-radius: 0px;
+    border-radius: 10px;
     font-size: .9rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
@@ -453,48 +399,9 @@ align-items: flex-start; */
 
 
 /* Journey Page*/
-.journey-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-.journey-side {
-    flex-basis: 50%;
-}
-.circle {
-    
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #fb5a67;
-    display: block;
-    display: inline-block;
-    
-}
-.roadmap {
-    background-image: url("../img/Group\ 43.png");
-    background-repeat: no-repeat;
-    background-position: 40%;
-}
-.freshman {
-    position: relative;
-    top: 120px;
-    left: 160px;
-    
-}
-.sophomore {
-    position: relative;
-    top: 255px;
-    left: 100px;
-}
-.junior {
-    position: relative;
-    top: 350px;
-    left: 305px;
-}
-.senior {
-    position:relative;
-    top: 430px;
-    left: 145px;
+.img-container {
+    width: 100%;
+    height: 50%;
 }
  
 
@@ -514,13 +421,26 @@ align-items: flex-start; */
 }
 .col-projects {
     flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
 }
 #project-deco-img {
     float: right;
     display: flex;
     align-items: flex-end;
+    padding-bottom: 10px;
     shape-outside: inset(calc(100% - 100px) 0 0);
+    
 }
+.card {
+    width: 500px;
+    height: 700px
+   
+}
+
 
 /* effects */
 a:hover {

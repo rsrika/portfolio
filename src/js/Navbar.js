@@ -4,10 +4,10 @@ export function NavBar(props) {
 
     let navImg = () => {
         if(props.isPink) {
-            return (<img id="nav-img" className="pink-text" src="img/general/roshni-pink.png" alt="roshni in signature style" onClick={() => { props.handleClickHome()}}></img>);
+            return (<img id="nav-img" className="pink-text" src="/img/general/roshni-pink.png" alt="roshni in signature style" onClick={() => { props.handleClickHome()}}></img>);
         }
         else {
-            return (<img id="nav-img" className="white-text" src="img/general/roshni.png" alt="roshni in signature style" onClick={() => { props.handleClickHome()}}></img>);
+            return (<img id="nav-img" className="white-text" src="/img/general/roshni.png" alt="roshni in signature style" onClick={() => { props.handleClickHome()}}></img>);
         }
     }
 
@@ -23,7 +23,7 @@ export function NavBar(props) {
                 <div className="links">
                     <ul className='example'>
                         <li>
-                            <button className="fs-6 navlink home hover1 hover1-1"
+                            <button className="fs-5 navlink home hover1 hover1-1"
                                 onClick={
                                     () => {
                                         props.handleClickHome()
@@ -31,7 +31,7 @@ export function NavBar(props) {
                             }>Home</button>
                         </li>
                         <li>
-                            <button className="fs-6 navlink journey hover2 hover2-1"
+                            <button className="fs-5 navlink journey hover2 hover2-1"
                                 onClick={
                                     () => {
                                         props.handleClickJourney()
@@ -39,7 +39,7 @@ export function NavBar(props) {
                             }>My Journey</button>
                         </li>
                         <li>
-                            <button className="fs-6 navlink resume hover3 hover3-1"
+                            <button className="fs-5 navlink resume hover3 hover3-1"
                                 onClick={
                                     () => {
                                         props.handleClickResume()
@@ -47,7 +47,7 @@ export function NavBar(props) {
                             }>Resume</button>
                         </li>
                         <li>
-                            <button className="fs-6 navlink projects hover4 hover4-1"
+                            <button className="fs-5 navlink projects hover4 hover4-1"
                                 onClick={
                                     () => {
                                         props.handleClickProjects()
@@ -55,7 +55,7 @@ export function NavBar(props) {
                             }>Projects</button>
                         </li>
                         <li>
-                            <button className="fs-6 navlink about hover5 hover5-1"
+                            <button className="fs-5 navlink about hover5 hover5-1"
                                 onClick={
                                     () => {
                                         props.handleClickAbout()

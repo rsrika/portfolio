@@ -18,16 +18,24 @@ export function Home(props) {
             <div className="row home-container">
                 
                 <div className='col col-picture'>
-                    <div>
-                        <img className='picture' src="./img/general/RoshniProfile.jpg" alt="Roshni holding a cup of iced tea and sitting on a bench"/>
+                    <div className='animate__animated animate__pulse'>
+                        <div className="half-spacer"/>
+                        <img className='picture' src="/img/general/RoshniProfile.jpg" alt="Roshni holding a cup of iced tea and sitting on a bench"/>
                     </div>
                 </div>
                 <div className='col col-text'>
-                    <div className="spacer"></div>
-                
+                    
                     <h1 className='big-letters'>ROSHNI SRIKANTH</h1>
                     <br/>
-                    <h4 className="intro">Hi! I’m Roshni Srikanth, a junior at the University of Washington majoring in Informatics. I'm also a part of the Interdisciplinary Honors Program. Welcome to my portfolio!</h4>
+                    <p className="intro">
+                        Hi! I’m Roshni (she/her), welcome to my portfolio! I’m a junior at the University of Washington studying Informatics with a minor in Environmental Science and Terrestrial Resource Management (ESRM). At UW, I am part of the Interdisciplinary Honors program and a TA for INFO 200 (Intellectual Foundations of Informatics). I’m also serving as a co-president of Women in Informatics (WINFO).
+                        <br/><br/>
+                        I’ve always been fascinated by the intersection of people, technology, and sustainability. Throughout my childhood, I was exposed to different aspects of technology and have always wanted to create positive change in this space. I aspire to become a design engineer so that I can integrate my technical abilities with the voice of the user. 
+                        <br/><br/>
+                        In my spare time, I love to play with my dog, Mango, watch Netflix shows (currently watching Kaleidoscope), and explore new food places in the Seattle area with my friends!
+                        <br/><br/>
+                        Feel free to reach out to me at <a className="pink" href = "mailto: rsrika@uw.edu">rsrika@uw.edu</a> if you want to chat!
+                    </p>
                     <br/>
                     <button className="btn pink-button"
                         onClick={
