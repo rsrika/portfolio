@@ -421,6 +421,11 @@ align-items: flex-start; */
     height: 100px;
     background-repeat: no-repeat;
 }
+
+.journeyPic {
+  height: 300px;
+  transform: translate(50%,2%);
+}
  
 
 /*Projects Page*/
