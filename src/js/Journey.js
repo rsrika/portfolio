@@ -31,7 +31,7 @@ export function Journey(props) {
                 <div className='row road-container'>
                     <div className='row'>
                         <div className='col'>
-                            <img src="./img/journey/Roshni Journey.png"/>
+                            <img className="journeyPic" src="./img/journey/roshniJourney.png"/>
                         </div>
 
                         <div className='col'>
