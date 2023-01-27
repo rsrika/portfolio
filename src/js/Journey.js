@@ -8,18 +8,13 @@ export function Journey(props) {
 
     function MakeLabels(props) {
         return (
-            <div className='line'>
-                <div className="d-inline align">
+            <div className='line signpost'>
+                <div className="d-inline text-center">
                     <p className="cursive" onClick={
                                     () => {
                                         props.handleClick()
                                     }}>{props.year}</p>
                 </div>
-                &nbsp; &nbsp; &nbsp;
-                <div className='circle' onClick={
-                                    () => {
-                                        props.handleClick()
-                                    }}></div>
             </div>
         );
     }
@@ -32,7 +27,57 @@ export function Journey(props) {
                 <h1 className='big-letters'>MY UW JOURNEY</h1>
                 <div className='half-spacer'></div>
                 <div className='row img-container'>
-                    <img src="./img/general/Mountains background.png"/>
+                </div>
+                <div className='row road-container'>
+                    <div className='row'>
+                        <div className='col text-center'>
+                        </div>
+                        
+                        <div className='col'>
+
+                            <button className="btn pink-button"
+                                onClick={
+                                    () => {
+                                            props.handleClick()
+                                    }
+                            }>
+                                <strong className="cursive">Freshman</strong>
+                            </button>
+                            
+                        </div>
+
+                        <div className='col text-center'>
+                            <button className="btn pink-button"
+                                onClick={
+                                    () => {
+                                            props.handleClick()
+                                    }
+                            }>
+                                <strong className="cursive">Sophomore</strong>
+                            </button>
+                        </div>
+                        <div className='col text-center'>
+                            <button className="btn pink-button"
+                                onClick={
+                                    () => {
+                                            props.handleClick()
+                                    }
+                            }>
+                                <strong className="cursive">Junior</strong>
+                            </button>
+                        </div>
+                        <div className='col text-center'>
+                            <button className="btn pink-button"
+                                onClick={
+                                    () => {
+                                            props.handleClick()
+                                    }
+                            }>
+                                <strong className="cursive">Senior</strong>
+                            </button>
+                        </div>
+                        
+                    </div> 
                 </div>
             </div>
             <div className="spacer"></div> 

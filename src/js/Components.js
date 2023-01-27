@@ -26,7 +26,7 @@ export function Footer(props) {
                         </div>                          
                     </div>
                 </div>
-                <small>Copyright 2023 &nbsp; &copy; &nbsp; Roshni Srikanth 2022 &hearts;</small>
+                <small>Copyright 2023 &nbsp; &copy; &nbsp; Roshni Srikanth 2023 &hearts;</small>
 
             </div>
         </footer>
