@@ -1,0 +1,35 @@
+[
+    {
+        "Year": "freshman",
+        "GalleryList": "./galleries/freshman_gallery.json", 
+        "Autumn": "./reflections/autumn_2020.txt", 
+        "Winter": "./reflections/winter_2021.txt", 
+        "Spring":  "./reflections/spring_2021.txt", 
+        "artifacts": "./artifacts/freshman_year_artifacts.json"
+    },
+    {
+        "Year": "sophomore",
+        "GalleryList": "./galleries/sophomore_gallery.json", 
+        "Autumn": "./reflections/autumn_2021.txt", 
+        "Winter": "./reflections/winter_2022.txt", 
+        "Spring":  "./reflections/spring_2022.txt",
+        "Summer":  "./reflections/summer_2022.txt",
+        "artifacts": "./artifacts/sophomore_year_artifacts.json"
+    },
+    {
+        "Year": "junior",
+        "GalleryList": "./galleries/junior_gallery.json", 
+        "Autumn": "./reflections/autumn_2022.txt", 
+        "Winter": "./reflections/winter_2023.txt", 
+        "Spring":  "./reflections/spring_2023.txt",
+        "artifacts": "./artifacts/junior_year_artifacts.json"
+    },
+    {
+        "Year": "senior",
+        "GalleryList": "./galleries/senior_gallery.json", 
+        "Autumn": "./reflections/autumn_2023.txt", 
+        "Winter": "./reflections/winter_2024.txt", 
+        "Spring":  "./reflections/spring_2024.txt",
+        "artifacts": "./artifacts/senior_year_artifacts.json"
+    }
+]   

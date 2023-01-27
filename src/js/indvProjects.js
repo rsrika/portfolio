@@ -7,7 +7,7 @@ import {useParams} from 'react-router-dom';
 export function IndvProjects(props) {
     let urlParams = useParams();
     let projectName = urlParams.projectname; 
-    console.log(projectName);
+    //console.log(projectName);
 
     let project =  props.data.filter((p) => {
         console.log(p.ProjectName);

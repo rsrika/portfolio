@@ -1,0 +1,23 @@
+[
+    {
+        "Quarter": "autumn",
+        "Title" : "Enter Artifact Name Here",
+        "Class": "Class Name",
+        "Description": "Artifact Description",
+        "Images": []
+    },
+    {
+        "Quarter": "autumn",
+        "Title" : "Enter Artifact Name Here",
+        "Class": "Class Name",
+        "Description": "Artifact Description",
+        "Images": []
+    },
+    {
+        "Quarter": "winter",
+        "Title" : "Enter Artifact Name Here",
+        "Class": "Class Name",
+        "Description": "Artifact Description",
+        "Images": []
+    }
+]
