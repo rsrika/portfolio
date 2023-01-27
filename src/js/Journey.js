@@ -30,9 +30,10 @@ export function Journey(props) {
                 </div>
                 <div className='row road-container'>
                     <div className='row'>
-                        <div className='col text-center'>
+                        <div className='col'>
+                            <img src="./img/journey/Roshni Journey.png"/>
                         </div>
-                        
+
                         <div className='col'>
 
                             <button className="btn pink-button"
@@ -81,6 +82,8 @@ export function Journey(props) {
                 </div>
             </div>
             <div className="spacer"></div> 
+            
+            <div className="spacer"></div>
             <Footer handleClickHome={props.handleClickHome}/>
         </div>
 
