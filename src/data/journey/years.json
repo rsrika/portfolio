@@ -1,35 +1,43 @@
 [
     {
         "Year": "freshman",
+        "image": "/img/journey/Freshman Year/freshmanVisual.png",
         "GalleryList": "./galleries/freshman_gallery.json", 
         "Autumn": "./reflections/autumn_2020.txt", 
         "Winter": "./reflections/winter_2021.txt", 
         "Spring":  "./reflections/spring_2021.txt", 
-        "artifacts": "./artifacts/freshman_year_artifacts.json"
+        "artifacts": "./artifacts/freshman_year_artifacts.json", 
+        "intro": "My first year at the University of Washington was during the height of the COVID-19 pandemic. I took virtual classes, attended convocation over zoom, and only went to campus a few times. Staying home made it difficult to fully immerse myself in the typical college atmosphere, but i found other ways to have fun - including going on walks with Vidhi, Tarini, and Mango, joining WINFO, and connecting with classmates over (really) bad movies. This year went by immensely quickly, and I know I have made friends that will last me a lifetime!"
     },
     {
         "Year": "sophomore",
+        "image": "/img/journey/Sophomore Year/sophomoreYear visual.png",
         "GalleryList": "./galleries/sophomore_gallery.json", 
         "Autumn": "./reflections/autumn_2021.txt", 
         "Winter": "./reflections/winter_2022.txt", 
         "Spring":  "./reflections/spring_2022.txt",
         "Summer":  "./reflections/summer_2022.txt",
-        "artifacts": "./artifacts/sophomore_year_artifacts.json"
+        "artifacts": "./artifacts/sophomore_year_artifacts.json", 
+        "intro": "I'm attending classes in-person this quarter! (or so I thought) My sophomore year at the University of Washington was a mix of in-person and virtual classes. I took classes in Fisheries, walked on the Ave, and hosted in-person events with WINFO. Despite the hybrid nature of class, especially in winter quarter, I was able to make the most of my sophomore year and build upon the lessons and experiences from last year."
     },
     {
         "Year": "junior",
+        "image": "/img/journey/Junior Year/juniorVisual.png",
         "GalleryList": "./galleries/junior_gallery.json", 
         "Autumn": "./reflections/autumn_2022.txt", 
         "Winter": "./reflections/winter_2023.txt", 
         "Spring":  "./reflections/spring_2023.txt",
-        "artifacts": "./artifacts/junior_year_artifacts.json"
+        "artifacts": "./artifacts/junior_year_artifacts.json", 
+        "intro": "This year has been a blast so far! I feel more like I truly belong here at the UW, and I can't wait to help expand that sense of belonging to everyone I meet. I have a greater understanding of my academic, professional, and personal goals and am working towards achieving them. I am looking at this year as a time of growth and progress, allowing me to make the most of my college experience."
     },
     {
         "Year": "senior",
+        "image": "/img/journey/Senior Year/seniorVisual.png",
         "GalleryList": "./galleries/senior_gallery.json", 
         "Autumn": "./reflections/autumn_2023.txt", 
         "Winter": "./reflections/winter_2024.txt", 
         "Spring":  "./reflections/spring_2024.txt",
-        "artifacts": "./artifacts/senior_year_artifacts.json"
+        "artifacts": "./artifacts/senior_year_artifacts.json", 
+        "intro": "Stay tuned for my senior year adventures!"
     }
 ]   

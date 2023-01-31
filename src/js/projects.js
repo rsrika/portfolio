@@ -3,15 +3,6 @@ import React from 'react';
 import { NavBar } from './Navbar';
 import { Footer } from './Components';
 
-// {
-//     "ProjectNumber": 3,
-//     "ProjectName": "ThriftEats",
-//     "ProjectRole": "Front-End Developer and Designer" ,
-//     "Tags": "Figma, JavaScript, React.js",
-//     "Image1": "/img/projects/ThriftEats/StartingScreen.png",
-//     "ProjectOverview": "Designed and developed an interactive web app that aims to streamline the budgeting, shopping, and planning process of buying groceries. "
-    
-//   }
 
 function makeTags(taglist) {
     let tags = taglist.split(",")

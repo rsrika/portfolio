@@ -10,9 +10,10 @@ import {Resume} from './js/resume.js';
 import {About} from './js/About.js';
 import ProjectsView from './js/projects';
 import { IndvProjects } from './js/indvProjects';
-
+import { Year } from './js/reflection';
 
 function App(props) {
+  
   let navigate = useNavigate();
   function handleClickHome() {
     console.log("handleClickHome");
@@ -71,19 +72,10 @@ function App(props) {
     navigate("/projects");
   }
 
-  function handleClickFreshman() {
-    navigate("/journey/freshman");
+  function handleClickYear(year) {
+    navigate("/journey/" + year);
   }
-  function handleClickSophomore() {
-    navigate("/journey/sophomore");
-  }
-  function handleClickJunior() {
-    navigate("/journey/junior");
-  }
-  function handleClickSenior() {
-    navigate("/journey/senior");
-  }
-
+  
   function handleClickIndv(project) {
     navigate(project);
   }
@@ -98,7 +90,7 @@ function App(props) {
       <Route path="/journey" element={
         <>
           {/* put components here */
-            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickFreshman={handleClickFreshman} handleClickSophomore={handleClickSophomore} handleClickJunior={handleClickJunior} handleClickSenior={handleClickSenior} />
+            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} />
           }
         </>
       } />
@@ -138,7 +130,7 @@ function App(props) {
       <Route path="/journey/:year" element={
         <>
           {/* put components here */
-            <NavBar handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects}/>
+            <Year data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} />
           }
         </>
       } />
@@ -148,7 +140,6 @@ function App(props) {
           {/* put components here */
            
               <Home handleClick={handleClickJourney} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} />
-              
            
           }
         </>

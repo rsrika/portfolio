@@ -24,7 +24,7 @@ export function Resume(props) {
                         <strong className="bolded-words">Software Developer</strong>
                     </h4>
                     <br/>
-                    <a className="btn btn-outline-danger button" href="https://drive.google.com/file/d/1gRiqNRxjrQqr9xFDpNy__-AS9FGgNr-b/view?usp=sharing">Download Resume</a>&emsp;
+                    <a className="btn btn-outline-danger button" href="https://drive.google.com/file/d/1FC0wmLxSscy6lBe8VzRTM2h9NuzFTNjN/view?usp=sharing">Download Resume</a>&emsp;
                     <a className="btn btn-outline-danger button" href="https://www.linkedin.com/in/roshni-srikanth/">LinkedIn</a>
                     <br/>
                 </div>
@@ -103,10 +103,21 @@ export function Resume(props) {
                                     <strong className='bolded-words'>Awards and Activities</strong>
                                 </h4>
                                 <ul>
-                                    <li>Co-President, Women in Informatics (WINFO)</li>
-                                    <li>Winner (Most Commercially Viable), DubHacks 2022</li>
-                                    <li>Member, Society of Women Engineers (SWE)</li>
-                                    <li>Dean's List: Fall 2020 - Spring 2022</li>
+                                    <li><span>Co-President, Member of Women in Informatics (WINFO)
+                                        <br/>
+                                        <i>September 2020 - Present</i></span></li>
+                                    <li><span>Winner (Most Commercially Viable), DubHacks 
+                                        <br/>
+                                        <i>October 2022</i></span>
+                                    </li>
+                                    <li><span>Member, Society of Women Engineers (SWE)
+                                        <br/>
+                                        <i>September 2020 - Present</i></span>
+                                    </li>
+                                    <li><span>Dean's List
+                                        <br/>
+                                        <i>Fall 2020 - Spring 2022</i></span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -179,6 +190,16 @@ export function Resume(props) {
                         </h4>
                     </div>
                     <div className='row'>
+                        <p>
+                            <strong>Conscious - Cooperative Software Development
+                            </strong>
+                            <br/>
+                            <i>September 2022 - December 2022 | Seattle, WA</i>
+                            <br/>
+                        </p> 
+                        <p><a href="https://conscious-96dae.web.app/">Conscious Website</a></p>
+                              
+                                         
                         
                         <p>
                             <strong>Candy Searcher - Client-Side Development

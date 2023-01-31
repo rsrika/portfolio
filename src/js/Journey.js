@@ -37,12 +37,11 @@ export function Journey(props) {
                         <div className='col'>
 
                             <button className="btn pink-button"
-                                onClick={
-                                    () => {
-                                            props.handleClick()
-                                    }
-                            }>
-                                <strong className="cursive">Freshman</strong>
+                               onClick= {
+                                () => {
+                                    props.handleClickYear("freshman");
+                                }}>
+                                <strong className="cursive">freshman</strong>
                             </button>
                             
                         </div>
@@ -51,30 +50,27 @@ export function Journey(props) {
                             <button className="btn pink-button"
                                 onClick={
                                     () => {
-                                            props.handleClick()
-                                    }
-                            }>
-                                <strong className="cursive">Sophomore</strong>
+                                        props.handleClickYear("sophomore");
+                                    }}>
+                                <strong className="cursive">sophomore</strong>
                             </button>
                         </div>
                         <div className='col text-center'>
                             <button className="btn pink-button"
                                 onClick={
                                     () => {
-                                            props.handleClick()
-                                    }
-                            }>
-                                <strong className="cursive">Junior</strong>
+                                        props.handleClickYear("junior");
+                                    }}>
+                                <strong className="cursive">junior</strong>
                             </button>
                         </div>
                         <div className='col text-center'>
                             <button className="btn pink-button"
                                 onClick={
                                     () => {
-                                            props.handleClick()
-                                    }
-                            }>
-                                <strong className="cursive">Senior</strong>
+                                        props.handleClickYear("senior");
+                                    }}>
+                                <strong className="cursive">senior</strong>
                             </button>
                         </div>
                         

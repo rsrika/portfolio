@@ -7,12 +7,15 @@ import reportWebVitals from './reportWebVitals';
 
 import projectsData from "./data/projects/data.json"
 import projectFull from "./data/projects/projects.json"
+import yearsData from "./data/journey/years.json"
+
+console.log("Years data", yearsData);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App projectList={projectsData} projectListFull={projectFull}/>
+      <App projectList={projectsData} projectListFull={projectFull} yearsData={yearsData}/>
     </BrowserRouter>
     
   </React.StrictMode>
