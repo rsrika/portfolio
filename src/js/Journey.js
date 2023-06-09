@@ -6,18 +6,18 @@ import { Footer } from './Components';
 export function Journey(props) {
     
 
-    function MakeLabels(props) {
-        return (
-            <div className='line signpost'>
-                <div className="d-inline text-center">
-                    <p className="cursive" onClick={
-                                    () => {
-                                        props.handleClick()
-                                    }}>{props.year}</p>
-                </div>
-            </div>
-        );
-    }
+    // function MakeLabels(props) {
+    //     return (
+    //         <div className='line signpost'>
+    //             <div className="d-inline text-center">
+    //                 <p className="cursive" onClick={
+    //                                 () => {
+    //                                     props.handleClick()
+    //                                 }}>{props.year}</p>
+    //             </div>
+    //         </div>
+    //     );
+    // }
     return(
         <div className="journeyPage">
             <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={true} />
@@ -31,7 +31,7 @@ export function Journey(props) {
                 <div className='row road-container'>
                     <div className='row'>
                         <div className='col'>
-                            <img className="journeyPic" src="./img/journey/roshniJourney.png"/>
+                            <img className="journeyPic" src="./img/journey/roshniJourney.png" alt=''/>
                         </div>
 
                         <div className='col'>

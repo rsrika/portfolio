@@ -4,10 +4,13 @@ import React from 'react';
 import { NavBar } from './Navbar';
 import { Footer } from './Components';
 import {useParams} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 
 
 export function Year(props) {
-    var reader = require('any-text');
+    
     console.log(props);
     let urlParams = useParams();
     let reflectionContent = urlParams.year; 
@@ -19,27 +22,10 @@ export function Year(props) {
     });
     year = year[0];
 
+    
     function handleClickQuarter(quarterName) {
 
     }
-
-    // function Reflection(quarterFileName) {
-
-       
-        let quarter = reader.getText(year.Autumn).then(function (data) {
-            console.log(data);
-            return data;
-        });
-        console.log(quarter)
-
-        // return (
-        //     <div className="quarterReflection">
-        //         <div className='half-spacer'></div>
-        //         <h1 className='big-letters'></h1>
-        //         <div className='half-spacer'></div>
-        //     </div>
-        // );
-    // }
 
 
     return (
@@ -48,16 +34,16 @@ export function Year(props) {
             <div className='half-spacer'/>
 
             <div className="container">
-                <h1 className='big-letters'>{year.Year.toUpperCase()}</h1>
+                <h1 className='big-letters'><span className="underline_on_hover" onClick= {() => {props.handleClickYear("");}}>YEAR </span><span><FontAwesomeIcon icon={faArrowRight} /></span>&nbsp;{year.Year.toUpperCase()}</h1>
                 <div className='half-spacer'></div>
                 <div className='row d-flex flex-row'>
                     <div className='col col-4'>
-                        <img src={year.image}/>
+                        <img src={year.image} alt=''/>
                     </div>
                     <div className='col text-center'>
                         <div className='half-spacer'/>
                         <div className='row text-center'>
-                             <p>{year.intro}</p>
+                             <p className='intro'>{year.intro}</p>
                         </div>
                         <div className='half-spacer'/>
                         <div className='row'>
@@ -67,7 +53,7 @@ export function Year(props) {
                                     () => {
                                         handleClickQuarter("autumn");
                                     }}>
-                                    <strong>AUTUMN</strong>
+                                    <strong className='cursive'>autumn</strong>
                                 </button>
                             </div>
                             <div className='col'>
@@ -76,7 +62,7 @@ export function Year(props) {
                                         () => {
                                             handleClickQuarter("winter");
                                         }}>
-                                        <strong>WINTER</strong>
+                                        <strong className='cursive'>winter</strong>
                                 </button>
                             </div>
                             <div className='col'>
@@ -85,7 +71,7 @@ export function Year(props) {
                                         () => {
                                             handleClickQuarter("spring");
                                         }}>
-                                        <strong>SPRING</strong>
+                                        <strong className='cursive'>spring</strong>
                                 </button>
                             </div>
                         </div>

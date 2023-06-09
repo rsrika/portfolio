@@ -3,9 +3,7 @@
         "Year": "freshman",
         "image": "/img/journey/Freshman Year/freshmanVisual.png",
         "GalleryList": "./galleries/freshman_gallery.json", 
-        "Autumn": "./reflections/autumn_2020.txt", 
-        "Winter": "./reflections/winter_2021.txt", 
-        "Spring":  "./reflections/spring_2021.txt", 
+        "reflections": "./reflections/freshman_reflections.json",
         "artifacts": "./artifacts/freshman_year_artifacts.json", 
         "intro": "My first year at the University of Washington was during the height of the COVID-19 pandemic. I took virtual classes, attended convocation over zoom, and only went to campus a few times. Staying home made it difficult to fully immerse myself in the typical college atmosphere, but i found other ways to have fun - including going on walks with Vidhi, Tarini, and Mango, joining WINFO, and connecting with classmates over (really) bad movies. This year went by immensely quickly, and I know I have made friends that will last me a lifetime!"
     },

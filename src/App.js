@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import "./css/style.css";
 
-import {NavBar} from './js/Navbar.js';
 import {Home} from './js/Home.js';
 import {Journey} from './js/Journey.js';
 import {Resume} from './js/resume.js';

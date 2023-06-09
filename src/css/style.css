@@ -437,6 +437,7 @@ align-items: flex-start; */
     text-align: center;
     border-radius: 30px;
     font-weight: bold;
+    
 }
 
 .projects-flex {
@@ -475,4 +476,8 @@ button strong:hover {
 }
 .circle:hover {
     background-color: #000;
+}
+.underline_on_hover:hover {
+  text-decoration: underline;
+  
 }
