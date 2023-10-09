@@ -89,7 +89,7 @@ function App(props) {
       <Route path="/journey" element={
         <>
           {/* put components here */
-            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} />
+            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData} />
           }
         </>
       } />
@@ -129,7 +129,7 @@ function App(props) {
       <Route path="/journey/:year" element={
         <>
           {/* put components here */
-            <Year data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} />
+            <Year data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData} />
           }
         </>
       } />

@@ -24,7 +24,7 @@ export function Resume(props) {
                         <strong className="bolded-words">Software Developer</strong>
                     </h4>
                     <br/>
-                    <a className="btn btn-outline-danger button" href="https://drive.google.com/file/d/1FC0wmLxSscy6lBe8VzRTM2h9NuzFTNjN/view?usp=sharing">Download Resume</a>&emsp;
+                    <a className="btn btn-outline-danger button" href="https://drive.google.com/file/d/1sZ7NZE2H26Nuk0gTsmgb0Ur713SwLBKD/view?usp=sharing">Download Resume</a>&emsp;
                     <a className="btn btn-outline-danger button" href="https://www.linkedin.com/in/roshni-srikanth/">LinkedIn</a>
                     <br/>
                 </div>
@@ -35,6 +35,19 @@ export function Resume(props) {
                             <h4>
                                 <strong className='bolded-words'>Relavant Experience</strong>
                             </h4>
+                        </div>
+                        <div className='row'>
+                            <p>
+                                <strong>SDE Intern - Amazon CloudFront Compute
+                                </strong>
+                                <br/>
+                                <i className='pink-text'>June 2023 - September 2023 | Seattle, WA</i>
+                            </p>
+                            <ul>
+                                <li>Modified existing codebase to optimize service, resulting in a drastic 150% reduction in execution time.</li>
+                                <li>Employed Rust to develop secure, high-performance code capable of handling large-scale operations.</li>
+                            </ul>
+                            
                         </div>
                         <div className='row'>
                             <p>
@@ -103,6 +116,10 @@ export function Resume(props) {
                                     <strong className='bolded-words'>Awards and Activities</strong>
                                 </h4>
                                 <ul>
+                                    <li><span>Awardee, UW Husky 100 
+                                        <br/>
+                                        <i>2023</i></span>
+                                    </li>
                                     <li><span>Co-President, Member of Women in Informatics (WINFO)
                                         <br/>
                                         <i>September 2020 - Present</i></span></li>
