@@ -75,6 +75,10 @@ function App(props) {
     navigate("/journey/" + year);
   }
   
+  function handleClickQuarter(year, quarter) {
+    navigate("/journey/" + year +"/" + quarter);
+  }
+
   function handleClickIndv(project) {
     navigate(project);
   }
@@ -89,7 +93,7 @@ function App(props) {
       <Route path="/journey" element={
         <>
           {/* put components here */
-            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData} />
+            <Journey handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData}/>
           }
         </>
       } />
@@ -129,7 +133,17 @@ function App(props) {
       <Route path="/journey/:year" element={
         <>
           {/* put components here */
-            <Year data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData} />
+            <Year data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData}
+            handleClickQuarter={handleClickQuarter}  />
+          }
+        </>
+      } />
+
+      <Route path="/journey/:year/:quarter" element={
+        <>
+          {/* put components here */
+            <Year data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData}
+            handleClickQuarter={handleClickQuarter}  />
           }
         </>
       } />

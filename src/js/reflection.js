@@ -21,11 +21,7 @@ export function Year(props) {
         return entry.Year === reflectionContent;
     });
     year = year[0];
-
     
-    function handleClickQuarter(quarterName) {
-
-    }
 
 
     return (
@@ -51,7 +47,7 @@ export function Year(props) {
                                 <button className="btn pink-button"
                                 onClick= {
                                     () => {
-                                        handleClickQuarter("autumn");
+                                        props.handleClickQuarter(year.Year.toLowerCase(), "autumn");
                                     }}>
                                     <strong className='cursive'>autumn</strong>
                                 </button>
@@ -60,7 +56,7 @@ export function Year(props) {
                                 <button className="btn pink-button"
                                     onClick= {
                                         () => {
-                                            handleClickQuarter("winter");
+                                            props.handleClickQuarter(year.Year.toLowerCase(), "winter");
                                         }}>
                                         <strong className='cursive'>winter</strong>
                                 </button>
@@ -69,7 +65,7 @@ export function Year(props) {
                                 <button className="btn pink-button"
                                     onClick= {
                                         () => {
-                                            handleClickQuarter("spring");
+                                            props.handleClickQuarter(year.Year.toLowerCase(),"spring");
                                         }}>
                                         <strong className='cursive'>spring</strong>
                                 </button>

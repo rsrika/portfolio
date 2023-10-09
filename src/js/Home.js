@@ -28,11 +28,11 @@ export function Home(props) {
                     <h1 className='big-letters'>ROSHNI SRIKANTH</h1>
                     <br/>
                     <p className="intro">
-                        Hi! I’m Roshni (she/her), welcome to my portfolio! I’m a junior at the University of Washington studying Informatics with a minor in Environmental Science and Terrestrial Resource Management (ESRM). At UW, I am part of the Interdisciplinary Honors program and a TA for INFO 200 (Intellectual Foundations of Informatics). I’m also serving as a co-president of Women in Informatics (WINFO).
+                        Hi! I’m Roshni (she/her), welcome to my portfolio! I’m a senior at the University of Washington studying Informatics with a minor in Environmental Science and Terrestrial Resource Management (ESRM). At UW, I am part of the Interdisciplinary Honors program and a TA for INFO 200 (Intellectual Foundations of Informatics). I’m also serving as a co-president of Women in Informatics (WINFO).
                         <br/><br/>
                         I’ve always been fascinated by the intersection of people, technology, and sustainability. Throughout my childhood, I was exposed to different aspects of technology and have always wanted to create positive change in this space. I aspire to become a design engineer so that I can integrate my technical abilities with the voice of the user. 
                         <br/><br/>
-                        In my spare time, I love to play with my dog, Mango, watch Netflix shows (currently watching Kaleidoscope), and explore new food places in the Seattle area with my friends!
+                        In my spare time, I love to play with my dog, Mango, watch TV shows (just finished Only Murders in the Building🎭), and explore new food places with my friends!
                         <br/><br/>
                         Feel free to reach out to me at <a className="pink" href = "mailto: rsrika@uw.edu">rsrika@uw.edu</a> if you want to chat!
                     </p>

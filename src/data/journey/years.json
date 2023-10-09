@@ -26,7 +26,7 @@
         "Winter": "./reflections/winter_2023.txt", 
         "Spring":  "./reflections/spring_2023.txt",
         "artifacts": "./artifacts/junior_year_artifacts.json", 
-        "intro": "This year has been a blast so far! I feel more like I truly belong here at the UW, and I can't wait to help expand that sense of belonging to everyone I meet. I have a greater understanding of my academic, professional, and personal goals and am working towards achieving them. I am looking at this year as a time of growth and progress, allowing me to make the most of my college experience."
+        "intro": "This year was a blast! I feel more like I truly belong here at the UW, and I can't wait to help expand that sense of belonging to everyone I meet. I have a greater understanding of my academic, professional, and personal goals and am working towards achieving them. There were a number of rough patches, but I am glad to have gotten through them with the support of my friends, family, and larger community. I am looking at this year as a time of growth and progress, allowing me to make the most of my college experience."
     },
     {
         "Year": "senior",
@@ -36,6 +36,6 @@
         "Winter": "./reflections/winter_2024.txt", 
         "Spring":  "./reflections/spring_2024.txt",
         "artifacts": "./artifacts/senior_year_artifacts.json", 
-        "intro": "Stay tuned for my senior year adventures!"
+        "intro": "I'm ready for my final year! The year started with a crowd of new people that I am meeting, and it's fun to hang out with my roommates and see where things lead. Stay tuned for more senior year adventures!"
     }
 ]   

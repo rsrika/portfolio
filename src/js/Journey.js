@@ -23,13 +23,13 @@ export function Journey(props) {
             <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={true} />
             
             <div className='half-spacer'/>
-            <div className="container">
+            <div className="container ">
                 <h1 className='big-letters'>MY UW JOURNEY</h1>
                 <div className='half-spacer'></div>
                 <div className='row img-container'>
                 </div>
                 <div className='row road-container'>
-                    <div className='row'>
+                    <div className='row animate__animated animate__fadeInLeft'>
                         <div className='col'>
                             <img className="journeyPic" src="./img/journey/roshniJourney.png" alt=''/>
                         </div>
