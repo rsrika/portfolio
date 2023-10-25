@@ -25,18 +25,13 @@ export function QuarterlyReflection(props) {
     year = year[0];
 
     // fetch the data from year.reflections (i.e. one of the files from ./data/journey/reflections)
- 
-    // fetch(year.reflections)
-    //     .then(response => response.json())
-    //     .then(reflectionsData => console.log(reflectionsData))
-    
+
     useEffect(() => {
         fetch(year.reflections) 
             .then(response => response.json())
             .then(data => {
                 setQuarterData(data);
                 console.log("Quarterly data:" , data);
-
             })
             .catch(error => console.error(error));
     }, []);
