@@ -133,7 +133,7 @@ export function Resume(props) {
                                     </li>
                                     <li><span>Dean's List
                                         <br/>
-                                        <i>Fall 2020 - Spring 2022</i></span>
+                                        <i>Fall 2020 - Spring 2023</i></span>
                                     </li>
                                 </ul>
                             </div>
@@ -155,15 +155,17 @@ export function Resume(props) {
                         <p>
                             Java
                             <br/>
+                            Rust
+                            <br/>
                             R
                             <br/>
-                            HTML
-                            <br/>
-                            CSS
+                            HTML/CSS
                             <br/>
                             JavaScript
                             <br/>
                             React.js
+                            <br/>
+                            React.Native
                             <br/>
                             Python
                             <br/>
@@ -207,6 +209,13 @@ export function Resume(props) {
                         </h4>
                     </div>
                     <div className='row'>
+                        <p>
+                            <strong>BACtracker - Informatics Program Capstone
+                            </strong>
+                            <br/>
+                            <i>January 2023 - June 2023 | Seattle, WA</i>
+                            <br/>
+                        </p> 
                         <p>
                             <strong>Conscious - Cooperative Software Development
                             </strong>

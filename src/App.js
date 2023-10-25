@@ -10,6 +10,7 @@ import {About} from './js/About.js';
 import ProjectsView from './js/projects';
 import { IndvProjects } from './js/indvProjects';
 import { Year } from './js/reflection';
+import { QuarterlyReflection } from './js/quarterlyReflection';
 
 function App(props) {
   
@@ -142,7 +143,7 @@ function App(props) {
       <Route path="/journey/:year/:quarter" element={
         <>
           {/* put components here */
-            <Year data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData}
+            <QuarterlyReflection data={props.yearsData} handleClickHome={handleClickHome} handleClickJourney={handleClickJourney} handleClickAbout={handleClickAbout} handleClickResume={handleClickResume} handleClickProjects={handleClickProjects} handleClickYear={handleClickYear} reflectionsData={props.reflectionsData}
             handleClickQuarter={handleClickQuarter}  />
           }
         </>
