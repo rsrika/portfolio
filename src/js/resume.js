@@ -23,8 +23,11 @@ export function Resume(props) {
                     <h4>
                         <strong className="bolded-words">Software Developer</strong>
                     </h4>
+                    <p className="intro">
+                    I am a versatile <span className="pink-text">software engineer</span> with a strong  aptitude for <span className="pink-text">problem solving</span>, dedicated to crafting efficient solutions that prioritize <span className="pink-text">customer experiences</span>. My consistent ability to collaborate with teammates, adapt to dynamic environments, and communicate effectively enables me to deliver <span className="pink-text">equitable solutions </span>at scale.
+                    </p>
                     <br/>
-                    <a className="btn btn-outline-danger button" href="https://drive.google.com/file/d/1sZ7NZE2H26Nuk0gTsmgb0Ur713SwLBKD/view?usp=sharing">Download Resume</a>&emsp;
+                    <a className="btn btn-outline-danger button" href="https://docs.google.com/document/d/1F5hEzHIDZqM9gjZvtC7TpbuPpFv2Lyz6bIVivmLdBVY/edit?usp=sharing">Download Resume</a>&emsp;
                     <a className="btn btn-outline-danger button" href="https://www.linkedin.com/in/roshni-srikanth/">LinkedIn</a>
                     <br/>
                 </div>

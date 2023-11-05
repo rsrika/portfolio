@@ -13,7 +13,6 @@ a {
 
 /* navigation bar */
 /* navigation bar */
-
 nav {
     display: inline;
   }
@@ -73,7 +72,6 @@ nav {
     text-decoration: none;
   }
    
-  
   .links .active {
     font-weight: bold;
     text-decoration: underline;
@@ -81,8 +79,6 @@ nav {
     text-underline-offset: .25rem;
     text-decoration-thickness: 4px;
   }
-  
-
   
   #examples .example .hover1:before,
   #examples .example .hover1:after, 
@@ -157,9 +153,6 @@ nav {
   }
 
 
-
-
-
 /*Home Page */
 .split-color {
     margin: 0;
@@ -175,7 +168,6 @@ nav {
 .col-picture {
     flex-basis: 20%;
 }
-
 
 .intro {
     font-weight: 500;
@@ -194,15 +186,12 @@ nav {
     padding-left: 15%;
 }
 
-
-
-
-
 .pink-button strong {
     font-weight: 600;
     color: #ffffff;
    
 }
+
 .alignment-home {
     margin: auto;
     padding-left: 45%;
@@ -218,6 +207,7 @@ nav {
     color: #fb5a67;
     
 }
+
 .larger-letters {
     font-weight: 700;
     font-size: large;
@@ -226,13 +216,16 @@ nav {
 .white-text {
     color: white;
 }
+
 .grey-text {
     color: gray;
 }
+
 .pink-button {
     background-color: #fb5a67;
     width: 200px;
 }
+
 .white-text a {
     font-size: x-large;
     color: white;
@@ -241,9 +234,11 @@ nav {
 .pink-text {
     color: #fb5a67;
 }
+
 .white-text h4 {
     font-weight: bold;
 }
+
 .cursive {
     font-family: 'Sacramento', cursive;
     font-size: 50px;
@@ -269,6 +264,7 @@ nav {
     flex-direction: row;
     
 }
+
 .row-icons a {
     
     color:#fb5a67;
@@ -336,10 +332,10 @@ nav {
 .spacer {
     height: 100px;
 }
+
 .half-spacer {
     height: 50px;
 }
-
 
 .big-spacing {
     margin-top: 200%;
@@ -350,7 +346,6 @@ nav {
 
 
 /* footer */
-
 #sticky-footer {
     width: 100%;
     position: relative;
@@ -385,13 +380,13 @@ nav {
     width: 35px;
     height: 35px;
 }
+
 small {
     padding-left: 8px;
 
 /* flex-basis: 91%;
 align-items: flex-start; */
 }
-  
 
 .line p {
     display: inline;
@@ -406,6 +401,7 @@ align-items: flex-start; */
     background-position: center;
     
 }
+
 .road-container {
     
     background-image: url(../img/road.png);
@@ -443,6 +439,7 @@ align-items: flex-start; */
 .projects-flex {
     display: flex;
 }
+
 .col-projects {
     flex-basis: 80%;
     display: flex;
@@ -451,6 +448,7 @@ align-items: flex-start; */
 
 
 }
+
 #project-deco-img {
     float: right;
     display: flex;
@@ -459,6 +457,7 @@ align-items: flex-start; */
     shape-outside: inset(calc(100% - 100px) 0 0);
     
 }
+
 .card {
     width: 500px;
     height: 700px
@@ -474,9 +473,11 @@ a:hover {
 button strong:hover {
     color: #000;
 }
+
 .circle:hover {
     background-color: #000;
 }
+
 .underline_on_hover:hover {
   text-decoration: underline;
   
