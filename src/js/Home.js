@@ -34,7 +34,7 @@ export function Home(props) {
                         <br/><br/>
                         In my spare time, I love to play with my dog, Mango, watch TV shows (just finished Only Murders in the Building🎭), and explore new food places with my friends!
                         <br/><br/>
-                        Feel free to reach out to me at <a className="pink" href = "mailto: rsrika@uw.edu">rsrika@uw.edu</a> if you want to chat!
+                        Feel free to reach out to me at <a className="pink" href = "mailto: rosheenee@gmail.com">rosheenee@gmail.com</a> if you want to chat!
                     </p>
                     <br/>
                     <button className="btn pink-button"
@@ -56,7 +56,7 @@ export function Home(props) {
             <div className='row white-text home-links'>
                 <h4>EMAIL</h4>
                 <br/>
-                <a href = "mailto: rsrika@uw.edu">rsrika@uw.edu</a>
+                <a href = "mailto: rosheenee@gmail.com">rosheenee@gmail.com</a>
             </div>
             <br/><br/>
             <div className='row white-text home-links'>
