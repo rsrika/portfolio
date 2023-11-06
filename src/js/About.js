@@ -25,17 +25,17 @@ export function About(props) {
                     <br/><br/>
                     I was drawn to the informatics program at UW because I’ve always been passionate about technology and its interaction with culture and wanted to integrate the two. 
                     <br/><br/>
-                    I’m a software developer, interested in both all types of development. However, my passions lie in front-end and full-stack development, where I can build efficient React apps that are usable and well designed to create amazing experiences for all people. 
+                    I’m a software developer, interested in all types of development. However, my passion lies in front-end and full-stack development, where I can build efficient applications that are usable and well designed to create amazing experiences for all people. 
                     <br/><br/>
-                    I just finished a software development internship at Amazon, where I learned to use Rust, and designed a service structure use in a production-level environment around the world. As I finish my college career, I plan on furthering my skills in React and server-side development, so I can be a better engineer.     
+                    I just finished a software development internship at Amazon, where I learned to use Rust. I designed a service structure to use in a production-level environment around the world. As I finish my college career, I plan on furthering my skills in React and server-side development, so I can be a better engineer.     
                     <br/><br/>
                     Outside of school, I love to play with my dog, eat food, watch Netflix, read new books, and take walks with my friends!
                     <br/><br/>
-                    Feel free to reach out to me at <a href="mailto: rsrika@uw.edu">rsrika@uw.edu!</a>
+                    Feel free to reach out to me at <a href="mailto: rosheenee@gmail.com">rosheenee@gmail.com!</a>
                     </p>
                 </div>
                 <div className="col">
-                    <img className="picture" src="/img/general/IMG_GASWORKS.jpg" alt="Roshni wearing a pink and blue sweater"/>
+                    <img className="picture" src="/img/general/IMG_GASWORKS.jpg" alt="Roshni wearing a brown courderoy jacket while leaning against a fence at gasworks park"/>
                 </div>
             </div>
         </div>
