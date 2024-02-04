@@ -25,7 +25,6 @@ export function Journey(props) {
             <div className='half-spacer'/>
             <div className="container ">
                 <h1 className='big-letters'>MY UW JOURNEY</h1>
-                <div className='half-spacer'></div>
                 <div className='row img-container'>
                 </div>
                 <div className='row road-container'>
@@ -73,7 +72,7 @@ export function Journey(props) {
                                 <strong className="cursive">senior</strong>
                             </button>
                         </div>
-                        
+            
                     </div> 
                 </div>
             </div>

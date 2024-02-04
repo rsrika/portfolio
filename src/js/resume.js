@@ -24,7 +24,7 @@ export function Resume(props) {
                         <strong className="bolded-words">Software Developer</strong>
                     </h4>
                     <p className="intro">
-                    I am a versatile <span className="pink-text">software engineer</span> with a strong  aptitude for <span className="pink-text">problem solving</span>, dedicated to crafting efficient solutions that prioritize <span className="pink-text">customer experiences</span>. My consistent ability to collaborate with teammates, adapt to dynamic environments, and communicate effectively enables me to deliver <span className="pink-text">equitable solutions </span>at scale.
+                    I am a versatile software engineer with a strong aptitude for problem solving, dedicated to crafting efficient solutions that prioritize and elevate customer experiences. My consistent ability to collaborate, adapt to dynamic environments, and communicate effectively enables me to deliver equitable solutions at scale. I am seeking opportunities in software engineering or full-stack development
                     </p>
                     <br/>
                     <a className="btn btn-outline-danger button" href="https://docs.google.com/document/d/1F5hEzHIDZqM9gjZvtC7TpbuPpFv2Lyz6bIVivmLdBVY/edit?usp=sharing">Download Resume</a>&emsp;
@@ -47,9 +47,9 @@ export function Resume(props) {
                                 <i className='pink-text'>June 2023 - September 2023 | Seattle, WA</i>
                             </p>
                             <ul>
-                                <p>Optimized a service, resulting in a drastic 150% reduction in execution time.</p>
-                                <p>Seamlessly integrated new data structures into the existing codebase while incorporating multiple languages via C-API.</p>
-                                <p>Employed Rust to develop secure, production-quality code handling 8 billion requests per second.</p>
+                                <p>Reduced execution time of a service feature by 150%, improving efficiency and customer satisfaction</p>
+                                <p>Designed, implemented, and integrated a new data structure successfully into the existing codebase using multiple languages via C-API, resulting in a more efficient system architecture</p>
+                                <p>Developed secure, high-performing code capable of handling 8 billion requests per second to improve system reliability, by learning and utilizing Rust</p>
                             </ul>
                             
                         </div>
@@ -61,9 +61,8 @@ export function Resume(props) {
                                 <i className='pink-text'>June 2022 - September 2022 | Bellevue, WA</i>
                             </p>
                             <ul>
-                                <p>Designed a log search tool with ELK Stack to streamline log management and enhance troubleshooting.</p>
-                                <p>Reduced log query time by 96%, eliminating 10 hours of weekly debugging time for team developers.</p>
-                                <p>Crafted a Node.js function for real-time log querying and parsing, ensuring logs were transformed into a user-friendly, searchable format in under 1 second.</p>
+                                <p>Reduced log query time by 96% and saved team developers 10 hours per week in debugging time, by designing and implementing a search tool with ELK Stack.</p>
+                                <p>Streamlined log management & troubleshooting by creating Node.js lambda functions for real-time log querying and parsing, transforming them into a user-friendly, searchable format in under 1 second.</p>
                             </ul>
                             
                         </div>
@@ -75,9 +74,9 @@ export function Resume(props) {
                                 <i className='pink-text'>June 2021 - August 2021 | Remote</i>
                             </p>
                             <ul>
-                                <p>Utilized React, Plasmic, and Firebase to create an intuitive, user-friendly web interface to track wildfires.</p>
-                                <p>Integrated real-time map data using Google APIs, enhancing precision wildfire tracking for first responders.</p>
-                                <p>Managed the full-stack intern team, collaborated with design and database teams to establish transparent communication channels for project deliverables.</p>
+                                <p>Created an intuitive, user-friendly web interface to track wildfires using React, Plasmic, and Firebase, resulting in improved efficiency for first responders</p>
+                                <p>Enhanced wildfire tracking by integrating real-time map data from Google APIs, resulting in an increase in precision for firefighters</p>
+                                <p>Led the full-stack intern team and established transparent communication channels with design and database teams, resulting in timely project deliverables</p>
                             </ul>
                            
                         </div>
@@ -129,7 +128,7 @@ export function Resume(props) {
                     <div className='row'>
                         <div className='col'>
                             <h5>
-                                <strong className='pink-text'>Programming</strong>
+                                <strong className='pink-text'>Technical</strong>
                             </h5>
                             <p>
                                 Java
@@ -155,6 +154,10 @@ export function Resume(props) {
                                 ELK Stack
                                 <br/>
                                 AWS
+                                <br/>
+                                MVC Framework
+                                <br/>
+                                MongoDB
                             </p>
                         </div>
                         <div className='col'>

@@ -26,7 +26,7 @@ function ProjectOverviewLeft(props) {
             <div className="half-spacer"/>
             <div className="row justify-content-center">
                 <div className="col ">
-                    <img src={props.project.Image1} className="img-fluid" alt="" />
+                    <img src={props.project.Image1} className="img-fluid project-img" alt="" />
                 </div>
                 <div className="col ">
                     <br/>
@@ -65,7 +65,7 @@ function ProjectOverviewLeft(props) {
 export default function Projects(props) {
     let projectList =  props.data.map((project) => {
         return (
-            <div key={ project.To}>
+            <div key={project.To}>
                 <ProjectOverviewLeft project={project} handleClickIndv={props.handleClickIndv}/>
                 <br/><br/><br/>
             </div>

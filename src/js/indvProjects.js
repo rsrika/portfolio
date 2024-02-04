@@ -7,74 +7,106 @@ import {useParams} from 'react-router-dom';
 export function IndvProjects(props) {
     let urlParams = useParams();
     let projectName = urlParams.projectname; 
-    //console.log(projectName);
 
     let project =  props.data.filter((p) => {
-        console.log(p.ProjectName);
         return p.ProjectName === projectName;
     });
     project = project[0];
 
-    
-   
-    console.log(project);
+
+    function goToWebsite(url) {
+        window.open(url, '_blank');
+    }
 
     return (
         <div>
             <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={true} /> 
             <div className='half-spacer'></div>
+            <img className='banner' src={project.banner_image} alt="banner image"/>
+            <div className='half-spacer'></div>
             <div className="container px-5 ">
+
                 <div className="context animate__animated animate__flipInX">
-                    <h1 className='big-letters '>{project.ProjectName}</h1>
-                    <br/><br/>
-                    <h3 className="intro"><strong>Project Timeline: </strong>{project.timeline}</h3>
-                    <h3 className="intro"><strong>My Role: </strong>{project.role}</h3>
-                    <h3 className="intro"><strong>Summary: </strong>{project.summary}</h3>
-                    <br/>
                     
-                </div>
-                <div className="context animate__animated animate__zoomIn">
-                    <br/><br/>
-                    <h4 className="intro">{project.context}</h4>
-                </div>
-                <div className="inspiration animate__animated animate__zoomIn">
-                    <br/><br/>
-                    <h4 className="intro ">{project.inspiration}</h4>
-                </div>
-                <div className="ideation animate__animated animate__zoomIn">
                     <div className="container">
-                        <div className="row">
-                            <div className="col">
-                                <img src={project.img_1} alt="img1"/>
+                        <h1 className='big-letters '>{project.ProjectName.toUpperCase()}</h1>
+                        <br/><br/>
+                        <div className='row'>
+                            <div className='col'>
+                                <h3 className="pink-text"><strong>TYPE</strong></h3>
+                                <p className="lead">{project.type}</p>
                             </div>
-                            <div className="col">
-                                <img src={project.img_2} alt="img2"/>
+                            <div className='col'>
+                                <h3 className="pink-text"><strong>DURATION</strong></h3>
+                                <p className="lead">{project.duration}</p>
+                            </div>
+                            <div className='col'>
+                                <h3 className="pink-text"><strong>MY ROLE</strong></h3>
+                                <p className="lead">{project.role}</p>
+                            </div>
+                            <div className='col'>
+                                <h3 className="pink-text"><strong>TOOLS</strong></h3>
+                                <p className="lead">{project.tools}</p>
                             </div>
                         </div>
+                        <br/>
+                        <div className='row'>
+                            <div className='col'>
+                                <button className="btn btn-outline-danger button" onClick={() => {goToWebsite(project.github)}}>
+                                    Our GitHub
+                                </button>
+                                <button className="btn btn-outline-danger button mx-3" onClick={() => {goToWebsite(project.link)}}>
+                                    Our Website
+                                </button>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div className='container'>
+                    <div className="context animate__animated animate__zoomIn">
+                        <br/><br/>
+                        <h3><strong>Overview</strong></h3>
+                        <h4 className="lead">{project.context}</h4>
                     </div>
-                    <br/><br/>
-                    <h4 className="intro">{project.ideation}</h4>
-                </div>
-                <div className="implementation animate__animated animate__zoomIn">
-                    <br/><br/>
-                    <h4 className="intro">{project.implementation}</h4>
-                </div>
-                {/* <div className="links animate__animated animate__zoomIn container">
-                    <br/><br/>
-                    <div className='row'>
-                        <button className="btn pink-button" href={project.link}>
-                            <strong>OUR WEBSITE</strong>
-                        </button>
+                    <div className="inspiration animate__animated animate__zoomIn">
+                        <br/><br/>
+                        <h3><strong>Inspiration</strong></h3>
+                        <h4 className="lead ">{project.inspiration}</h4>
+                    </div>
+                    <div className="inspiration animate__animated animate__zoomIn">
+                        <br/><br/>
+                        <h3><strong>Problem Statement</strong></h3>
+                        <h4 className="lead ">{project.problem_statement}</h4>
+                    </div>
+                    <div className="ideation animate__animated animate__zoomIn">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col">
+                                    <img src={project.img_1} alt="image of a draft website with candies in grid view"/>
+                                </div>
+                                <div className="col">
+                                    <img src={project.img_2} alt="image of a draft website with candies in list view"/>
+                                </div>
+                            </div>
+                        </div>
+                        <br/><br/>
+                        <h3><strong>Ideation</strong></h3>
+                        <h4 className="lead">{project.ideation}</h4>
+                    </div>
+                    <div className="implementation animate__animated animate__zoomIn">
+                        <br/><br/>
+                        <h3><strong>Development</strong></h3>
+                        <h4 className="lead">{project.implementation}</h4>
+                    </div>
+                    <div className="reflection animate__animated animate__zoomIn">
+                        <br/><br/>
+                        <h3><strong>Reflection</strong></h3>
+                        <h4 className="lead">{project.reflection}</h4>
+                    </div>
 
-                        <button className="btn pink-button" href={project.github}>
-                            <strong>OUR GITHUB</strong>
-                        </button>
-                    </div>
-                </div> */}
-                <div className="reflection animate__animated animate__zoomIn">
-                    <br/><br/>
-                    <h4 className="intro">{project.reflection}</h4>
                 </div>
+                
+                
                
             </div>
             <div className='spacer'/>

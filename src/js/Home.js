@@ -10,8 +10,8 @@ export function Home(props) {
     
     return (
     <div className='homePage split-color' >
-        <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={false}/>
-        
+       <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={false}/>
+       
         <div className="spacer"></div>
 
         <div className="container" >
@@ -32,7 +32,7 @@ export function Home(props) {
                         <br/><br/>
                         I’ve always been fascinated by the intersection of people, technology, and sustainability. Throughout my childhood, I was exposed to different aspects of technology and have always wanted to create positive change in this space. I aspire to become a design engineer so that I can integrate my technical abilities with the voice of the user. 
                         <br/><br/>
-                        In my spare time, I love to play with my dog, Mango, watch TV shows (just finished Only Murders in the Building🎭), and explore new food places with my friends!
+                        In my spare time, I love to play with my dog, Mango, watch TV shows (Schitt's Creek and Only Murders in the Building🎭 are some of my favs), and explore new food places with my friends!
                         <br/><br/>
                         Feel free to reach out to me at <a className="pink" href = "mailto: rosheenee@gmail.com">rosheenee@gmail.com</a> if you want to chat!
                     </p>

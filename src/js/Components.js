@@ -22,11 +22,11 @@ export function Footer(props) {
                             <a href="https://github.com/rsrika" className="fa fa-github align-bottom"> </a>
                         </div>     
                         <div className='col  align-bottom  justify-content-end'>
-                            <a href="mailto: rsrika@uw.edu" className="fa fa-envelope align-bottom"> </a>
+                            <a href="mailto: rosheenee@gmail.com" className="fa fa-envelope align-bottom"> </a>
                         </div>                          
                     </div>
                 </div>
-                <small>Copyright 2023 &nbsp; &copy; &nbsp; Roshni Srikanth 2023 &hearts;</small>
+                <small>Copyright 2024 &nbsp; &copy; &nbsp; Roshni Srikanth &hearts;</small>
 
             </div>
         </footer>

@@ -7,6 +7,10 @@ html {
     margin: 0;
 }
 
+body {
+  height: 100%;
+}
+
 a {
     color: #fb5a67;
 }
@@ -138,19 +142,19 @@ nav {
     position: relative;
   }
   
-  .name {
-    margin-left: 30px;
-    letter-spacing: 2px;
-  }
-  
-  .signature {
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-  
-  img {
-    max-width: 450px;
-  }
+.name {
+  margin-left: 30px;
+  letter-spacing: 2px;
+}
+
+.signature {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+img {
+  max-width: 450px;
+}
 
 
 /*Home Page */
@@ -246,7 +250,8 @@ nav {
 }
 
 .fa {
-    padding: 15%;
+    padding: 20%;
+    margin: 1px;
     font-size: 16px;
     width: 35px;
     height: 35px;
@@ -270,7 +275,7 @@ nav {
     color:#fb5a67;
 }
 
-
+/* buttons */
 .button {
     display: inline-block;
     padding: 0.5rem 0.75rem;
@@ -422,6 +427,10 @@ align-items: flex-start; */
   height: 300px;
   transform: translate(50%,2%);
 }
+
+.img-fluid {
+    max-width: 33%;
+}
  
 
 /*Projects Page*/
@@ -464,6 +473,17 @@ align-items: flex-start; */
    
 }
 
+.project-img {
+  max-width: 80%;
+}
+
+.banner{
+  width: 100%;
+  max-width: none;
+  height: auto;
+  display: block;
+  box-shadow: 5px 5px 4px #00000055;
+}
 
 /* effects */
 a:hover {

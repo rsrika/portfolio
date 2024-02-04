@@ -36,9 +36,9 @@ export function Year(props) {
                     <div className='col col-4'>
                         <img src={year.image} alt=''/>
                     </div>
-                    <div className='col text-center'>
+                    <div className='col'>
                         <div className='half-spacer'/>
-                        <div className='row text-center'>
+                        <div className='row'>
                              <p className='intro'>{year.intro}</p>
                         </div>
                         <div className='half-spacer'/>
