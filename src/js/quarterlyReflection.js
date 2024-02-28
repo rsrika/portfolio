@@ -6,6 +6,8 @@ import { Footer } from './Components';
 import {useParams} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { Carousel } from 'react-bootstrap';
+
 
 
 
@@ -44,13 +46,50 @@ export function QuarterlyReflection(props) {
                     data = data[3];
                 }
                 setQuarterData(data);
+
                 console.log("Quarterly data:" , data);
             })
             .catch(error => console.error(error));
     }, []);
+
+    
+    let reflectionContent = quarterData.reflection ? quarterData.reflection.split('\n').map((line, index) => {
+        return (
+            <span key={index}>
+                <span>{line}</span>
+                <br/><br/>
+            </span>
+        );
+    }) : ""
+
+    
+    let galleryContent = quarterData.gallery ?
+        <div>
+              <Carousel variant="dark">
+                {quarterData.gallery.map((slide, index) => {
+                    console.log("PATHNAME", window.location.href)
+                    console.log("SLIDE", slide.gallery_img)
+                    console.log("INDEX", index)
+                    return (
+                        <Carousel.Item key={index}>
+                            <div className='row'>
+                                <div className='col centered-img'>
+                                    <img className="d-block" src={slide.gallery_img} alt={`Slide ${index + 1}, ${slide.gallery_alt}`} />
+                                </div>
+                                <div className='col bg-pink white-text centered-text d-flex'>
+                                    <p>{slide.gallery_reflection}</p>
+                                </div>
+                            </div>
+                      </Carousel.Item>
+                    )
+                })}
+              </Carousel>
+        </div> : ""
+
     
 
-
+    console.log("Gallery", galleryContent);
+    console.log("Reflection", reflectionContent);
     return (
         <div className="quarterReflectionPage">
             <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={true} />
@@ -78,15 +117,25 @@ export function QuarterlyReflection(props) {
                     </div>
                     <div className='half-spacer'/>
                     <div className='row'>
-                        <p className="intro">
-                            {quarterData.reflection}
-                        </p>
+                        <div className="intro">
+                            {reflectionContent}
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="half-spacer"/>
             <div className="quarterArtifacts container d-flex">
-                
+            <div className='col'>
+                    <div className='row d-flex'>
+                        <strong className="cursive larger-letters mx-auto">artifacts from this quarter</strong>
+                    </div>
+                    <div className='half-spacer'/>
+                    <div className='row'>
+                        <div className="intro">
+                            {galleryContent}
+                        </div>
+                    </div>
+                </div>                
             </div>
            
 

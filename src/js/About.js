@@ -35,7 +35,7 @@ export function About(props) {
                     </p>
                 </div>
                 <div className="col">
-                    <img className="picture" src="/img/general/IMG_GASWORKS.jpg" alt="Roshni wearing a brown courderoy jacket while leaning against a fence at gasworks park"/>
+                    <img className="picture drop-shadow" src="/img/general/IMG_GASWORKS.jpg" alt="Roshni wearing a brown courderoy jacket while leaning against a fence at gasworks park"/>
                 </div>
             </div>
         </div>

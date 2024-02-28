@@ -39,6 +39,9 @@ export function Year(props) {
                     <div className='col'>
                         <div className='half-spacer'/>
                         <div className='row'>
+                            <h4>
+                                <strong className="bolded-words">{year.subtitle}</strong>
+                            </h4>
                              <p className='intro'>{year.intro}</p>
                         </div>
                         <div className='half-spacer'/>

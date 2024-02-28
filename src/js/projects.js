@@ -72,6 +72,7 @@ export default function Projects(props) {
         );
     });
     
+    console.log(projectList);
 
     return (
         <div className="projects-page">

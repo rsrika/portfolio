@@ -22,7 +22,7 @@ export function IndvProjects(props) {
         <div>
             <NavBar handleClickHome={props.handleClickHome} handleClickJourney={props.handleClickJourney} handleClickAbout={props.handleClickAbout} handleClickResume={props.handleClickResume} handleClickProjects={props.handleClickProjects} isPink={true} /> 
             <div className='half-spacer'></div>
-            <img className='banner' src={project.banner_image} alt="banner image"/>
+            <img className='banner drop-shadow' src={project.banner_image} alt="banner"/>
             <div className='half-spacer'></div>
             <div className="container px-5 ">
 
@@ -53,10 +53,10 @@ export function IndvProjects(props) {
                         <div className='row'>
                             <div className='col'>
                                 <button className="btn btn-outline-danger button" onClick={() => {goToWebsite(project.github)}}>
-                                    Our GitHub
+                                    GitHub
                                 </button>
                                 <button className="btn btn-outline-danger button mx-3" onClick={() => {goToWebsite(project.link)}}>
-                                    Our Website
+                                    Website
                                 </button>
                             </div>
                         </div>
@@ -82,10 +82,10 @@ export function IndvProjects(props) {
                         <div className="container">
                             <div className="row">
                                 <div className="col">
-                                    <img src={project.img_1} alt="image of a draft website with candies in grid view"/>
+                                    <img className="drop-shadow" src={project.img_1} alt="draft website with candies in grid view"/>
                                 </div>
                                 <div className="col">
-                                    <img src={project.img_2} alt="image of a draft website with candies in list view"/>
+                                    <img className="drop-shadow" src={project.img_2} alt="draft website with candies in list view"/>
                                 </div>
                             </div>
                         </div>

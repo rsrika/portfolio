@@ -20,7 +20,7 @@ export function Home(props) {
                 <div className='col col-picture'>
                     <div className='animate__animated animate__pulse'>
                         <div className="half-spacer"/>
-                        <img className='picture' src="/img/general/RoshniProfile.jpg" alt="Roshni holding a cup of iced tea and sitting on a bench"/>
+                        <img className='picture drop-shadow' src="/img/general/RoshniProfile.jpg" alt="Roshni holding a cup of iced tea and sitting on a bench"/>
                     </div>
                 </div>
                 <div className='col col-text'>

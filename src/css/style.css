@@ -183,7 +183,6 @@ img {
     height: max-content;
     margin-left: 18%; 
     display: block;
-    box-shadow: 5px 5px 4px #00000055;
 }
 
 .home-links {
@@ -273,6 +272,27 @@ img {
 .row-icons a {
     
     color:#fb5a67;
+}
+
+.drop-shadow {
+  box-shadow: 5px 5px 4px #00000055;
+}
+.bg-pink {
+  background-color: #fb5a67;
+}
+
+.centered-text {
+  justify-content: center; 
+  align-items: center; 
+  margin-right: 50px;
+}
+.centered-img {
+  justify-content: center; 
+  align-items: center; 
+  margin-left: 50px;
+}
+.centered-text p {
+  padding: 20px;
 }
 
 /* buttons */
@@ -482,7 +502,7 @@ align-items: flex-start; */
   max-width: none;
   height: auto;
   display: block;
-  box-shadow: 5px 5px 4px #00000055;
+  
 }
 
 /* effects */
