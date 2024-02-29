@@ -2,50 +2,38 @@
     {
         "Title": "AUTUMN QUARTER 2023",
         "reflection": "More of my adventures coming soon!",
-        "gallery_img_1":"",
-        "gallery_reflection_1":"",
-        "gallery_img_2":"",
-        "gallery_reflection_2":"",
-        "gallery_img_3":"",
-        "gallery_reflection_3":"",
-        "gallery_img_4":"",
-        "gallery_reflection_4":"",
-        "gallery_img_5":"",
-        "gallery_reflection_5":""
+        "gallery": [
+            {"gallery_img":"\\img\\journey\\Senior Year\\Fall\\big4.jpg", "gallery_alt": "Roshni in front of the Big 4 ice caves", "gallery_reflection":"This quarter, I took a class called National Parks and Recreation, and one of the fun things we did was take a trip to the big 4 ice caves! It was freezing most of the time, but I learned a lot about wildlife management. I learned that even though there are multiple signs posted about the danger of going into the caves, people still go into the caves anyway because they are naturally curious. One of my favorite parts of this trip was when we toured the ranger station and I got to be airlifted into a helicopter!"}, 
+            {"gallery_img":"\\img\\journey\\Senior Year\\Fall\\Camping in Yakama.jpg", "gallery_alt": "A tent I built by myself", "gallery_reflection":"I took a field trip to the Yakama Valley to learn about the culture and history of the Yakama nation, as well as to experience the culture of the tribe. This was such a great experience for me, and I found so many similarities and differences between the cultures that I am part of, and the culture that was shared with me through this field trip. I left with a profound insight on how we are all tied to nature, and how cycles of life need to be protected so that all of us can thrive. One thing that I was especially proud of was pitching my own tent!"},
+            {"gallery_img":"\\img\\journey\\Senior Year\\Fall\\India.jpg", "gallery_alt": "Me and Tarini wearing a sari that our cousin bought for us", "gallery_reflection":""},
+            {"gallery_img":"\\img\\journey\\Senior Year\\Fall\\Info wall.jpeg", "gallery_alt": "A picture of me on the wall of Mary Gates Hall", "gallery_reflection":""},
+            {"gallery_img":"\\img\\journey\\Senior Year\\Fall\\Night Carnival.jpeg", "gallery_alt": "I attended the night carnival and took a photo at the booth", "gallery_reflection":""},
+            {"gallery_img": "\\img\\journey\\Senior Year\\Fall\\Polaroid photos.jpg", "gallery_alt": "polaroid photos of me and sai", "gallery_reflection": ""},
+            {"gallery_img": "\\img\\journey\\Senior Year\\Fall\\roommates minus sai.jpg", "gallery_alt": "My friends and I on our way to Garba", "gallery_reflection": ""},
+            {"gallery_img": "\\img\\journey\\Senior Year\\Fall\\TA.jpg", "gallery_alt": "Nila and I in the sun in Gowen Hall", "gallery_reflection": ""},
+            {"gallery_img": "\\img\\journey\\Senior Year\\Fall\\WINFO Bonding.jpg", "gallery_alt": "The WINFO Officers", "gallery_reflection": ""},
+            {"gallery_img": "\\img\\journey\\Senior Year\\Fall\\WInfo.jpg", "gallery_alt": "an instagram flyer for iSquad bonding", "gallery_reflection": ""}
+        ]
 
     },
 
     {
         "Title": "WINTER QUARTER 2024",
         "reflection": "More of my adventures coming soon!",
-        "gallery_img_1":"",
-        "gallery_reflection_1":"",
-        "gallery_img_2":"",
-        "gallery_reflection_2":"",
-        "gallery_img_3":"",
-        "gallery_reflection_3":"",
-        "gallery_img_4":"",
-        "gallery_reflection_4":"",
-        "gallery_img_5":"",
-        "gallery_reflection_5":""
+        "gallery": [
+            {"gallery_img":"\\img\\journey\\Senior Year\\Winter\\Discovery Park.jpg", "gallery_alt": "Baloo and Mango in Discovery Park", "gallery_reflection":""}, 
+            {"gallery_img":"\\img\\journey\\Senior Year\\Winter\\Food account.jpg", "gallery_alt": "Rice cakes with broccoli tofu and basil", "gallery_reflection":""},
+            {"gallery_img":"\\img\\journey\\Senior Year\\Winter\\UW football.jpg", "gallery_alt": "the last football game I attended", "gallery_reflection":""},
+            {"gallery_img":"\\img\\journey\\Senior Year\\Winter\\WINFO Hackathon.jpg", "gallery_alt": "All of the WINFO officers at the hackathon", "gallery_reflection":""}
+        ]
 
     }, 
     
     
     {
         "Title": "SPRING QUARTER 2024",
-        "reflection": "More of my adventures coming soon!",
-        "gallery_img_1":"",
-        "gallery_reflection_1":"",
-        "gallery_img_2":"",
-        "gallery_reflection_2":"",
-        "gallery_img_3":"",
-        "gallery_reflection_3":"",
-        "gallery_img_4":"",
-        "gallery_reflection_4":"",
-        "gallery_img_5":"",
-        "gallery_reflection_5":""
-
+        "reflection": "While I won't be in school this quarter, more of my adventures will be coming soon!",
+        "gallery": []
     }
     
     
