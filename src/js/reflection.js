@@ -21,6 +21,17 @@ export function Year(props) {
         return entry.Year === reflectionContent;
     });
     year = year[0];
+
+    let summerCol = year.hasSummer === "true" ? 
+    <div className='col'>
+        <button className="btn pink-button"
+            onClick= {
+                () => {
+                    props.handleClickQuarter(year.Year.toLowerCase(),"summer");
+                }}>
+                <strong className='cursive'>summer</strong>
+        </button>
+    </div> : <span></span>;
     
 
 
@@ -32,7 +43,8 @@ export function Year(props) {
             <div className="container">
                 <h1 className='big-letters'><span className="underline_on_hover" onClick= {() => {props.handleClickYear("");}}>YEAR </span><span><FontAwesomeIcon icon={faArrowRight} /></span>&nbsp;{year.Year.toUpperCase()}</h1>
                 <div className='half-spacer'></div>
-                <div className='row d-flex flex-row'>
+            
+                <div className='row d-flex flex-row quarters-row' >
                     <div className='col col-4'>
                         <img src={year.image} alt=''/>
                     </div>
@@ -45,33 +57,36 @@ export function Year(props) {
                              <p className='intro'>{year.intro}</p>
                         </div>
                         <div className='half-spacer'/>
-                        <div className='row'>
-                            <div className='col'>
-                                <button className="btn pink-button"
-                                onClick= {
-                                    () => {
-                                        props.handleClickQuarter(year.Year.toLowerCase(), "autumn");
-                                    }}>
-                                    <strong className='cursive'>autumn</strong>
-                                </button>
-                            </div>
-                            <div className='col'>
-                                <button className="btn pink-button"
+                        <div className='container'>
+                            <div className='row gx-0'>
+                                <div className='col'>
+                                    <button className="btn pink-button"
                                     onClick= {
                                         () => {
-                                            props.handleClickQuarter(year.Year.toLowerCase(), "winter");
+                                            props.handleClickQuarter(year.Year.toLowerCase(), "autumn");
                                         }}>
-                                        <strong className='cursive'>winter</strong>
-                                </button>
-                            </div>
-                            <div className='col'>
-                                <button className="btn pink-button"
-                                    onClick= {
-                                        () => {
-                                            props.handleClickQuarter(year.Year.toLowerCase(),"spring");
-                                        }}>
-                                        <strong className='cursive'>spring</strong>
-                                </button>
+                                        <strong className='cursive'>autumn</strong>
+                                    </button>
+                                </div>
+                                <div className='col'>
+                                    <button className="btn pink-button"
+                                        onClick= {
+                                            () => {
+                                                props.handleClickQuarter(year.Year.toLowerCase(), "winter");
+                                            }}>
+                                            <strong className='cursive'>winter</strong>
+                                    </button>
+                                </div>
+                                <div className='col'>
+                                    <button className="btn pink-button"
+                                        onClick= {
+                                            () => {
+                                                props.handleClickQuarter(year.Year.toLowerCase(),"spring");
+                                            }}>
+                                            <strong className='cursive'>spring</strong>
+                                    </button>
+                                </div>
+                                {summerCol}
                             </div>
                         </div>
                     </div>
