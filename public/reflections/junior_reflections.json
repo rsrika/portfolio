@@ -2,32 +2,28 @@
     {
         "Title": "AUTUMN QUARTER 2022",
         "reflection": "After attending Grace Hopper and setting up my apartment right before the school year started, getting back into classes again was both hectic and wholesome. It was hard to get out of the summer mentality of spending hours hanging out with my friends, taking long drives to the lakes, and spending every spare moment we could outside, but I’m glad I get to be back on campus with my roommates Annika and Aditi and see my school friends more often again. \nStarting this quarter meant I needed to get my head back in the game. I took INFO 300 (Research Methods), INFO 442 (Cooperative Software Development), HONORS 220 C (The Evolution of Human Behavior), and HCDE 321 (Portfolio Development Seminar). In addition to these four classes, I also was a TA for INFO 200 for the third time, and took on more of a role in WINFO as Co-President. The classes I took were academically challenging, but also fun. I learned more about the nature of people and their behavior, how to collect and analyze data, how to develop software while cross-collaborating with fellow developers and designers, and how to present myself professionally to employers. My workload this quarter was difficult to manage, but small activities like having lunch with my friends, having a picnic on the quad, and taking the time to relax and play with Mango over the weekends refreshed me and gave me the clarity and confidence to do well this quarter. \nOne of the biggest things I was a part of this year was the WINFO 11th Annual Hackathon! After some trouble with booking the HUB room, the best possible date to do it was December 3rd, which slightly threw us off because we normally do it in January. To get everything finished on time, I started to attend Hackathon Committee meetings with Emiri and Lucy so that we could plan everything out. Seeing the effort that everyone put into this event was awesome, and the past nine months of work was definitely worth it. I was so excited to stand in front of the room and host the opening ceremony with Melina and talk to participants, mentors, and sponsors. Watching the way that everyone worked together to build unique and inspiring projects that have the potential to make a difference reminded me that this is what WINFO and our team is all about. \nAlthough there were a lot of positives this quarter, there were times when the stress was too much to bear. Nobody is immune to overworking themselves and burning out. It was difficult to learn how to accept support from others and learn how to talk about things instead of bottling myself up and hiding it away. Being vulnerable is difficult - people may not understand you the first time. They might dismiss you, or just not understand your situation. However, vulnerability is a skill that can be learned. When one opens up to the right people in the right way, they can change your life for the better. I felt different as a person and as a student this quarter, as I took on more responsibilities, made more friends, and took on more of a leadership role within the iSchool. \nDespite the challenges I’ve been facing in almost every aspect of my life, I chose to view this quarter as a period of development and growth🥳Seeing the people I care about - my family, Harkiran, Gisele, Emiri, Melina, Joe, Sai, Nitya, and Vidhi made me feel incredibly supported. As we iSchool students always say, \"iSchool is my school!\"",
-        "gallery_img_1":"",
-        "gallery_reflection_1":"",
-        "gallery_img_2":"",
-        "gallery_reflection_2":"",
-        "gallery_img_3":"",
-        "gallery_reflection_3":"",
-        "gallery_img_4":"",
-        "gallery_reflection_4":"",
-        "gallery_img_5":"",
-        "gallery_reflection_5":""
+        "gallery": [
+            {"gallery_img":"\\img\\journey\\Junior Year\\Fall\\Mango Halloween.jpg", "gallery_alt": "A goldendoodle in a bee costume", "gallery_reflection":"When digging through my garage, I found an old Halloween costume that I then put on Mango. Doesn't he look adorable as a bee?"}, 
+            {"gallery_img":"\\img\\journey\\Junior Year\\Fall\\Saint Bread.jpg", "gallery_alt": "Harkiran and I at Saint Bread", "gallery_reflection":"Harkiran visited me again in this in Fall quarter right after Grace Hopper. We visited a lot of places on campus, and it stayed for a long time. One of my favorite places was right at the edge of campus, near Agua Verde called Saint Bread"},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Fall\\W.jpg", "gallery_alt": "Roshni on top of a giant W statue", "gallery_reflection":"Since my apartment was on the end of Memorial, one of the things that defined it is the giant W that I walked across every single day on my way to class. One day I just had the urge to climb on top of the W and take a picture. It was somewhat challenging to actually climb it, but I'm glad I did. Now I can look back and say that I have a picture on top of the statue. I think I will try to climb this one more time when I'm in my cap and gown."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Fall\\442 project.png", "gallery_alt": "A goldendoodle sitting on my lap while I sit in on a zoom class", "gallery_reflection":"Sometimes, it's hard to find connection in online classes. One of the best ways I have seen to do this is through introducing pets! Although sometimes, Mango just gets the urge to sit in my lap when he doesn't get enough attention from me."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Fall\\portfolio.png", "gallery_alt": "A screenshot of the home page of this app", "gallery_reflection":"A class that I took this quarter was HCDE 321 - a class intended to build my portfolio. I used this class as an opportunity to fine tune my portfolio and add a lot of the content to it. I am really proud of the home page that I built"},
+            {"gallery_img": "", "gallery_alt": "", "gallery_reflection": "This year was WINFO's first return to in-person hackathons! Emiri was our hackathon director, Melina and I were co-presidents, and Gisele was our photographer. It's really cool to see that our friend group has stayed together for this long and we still contribute to WINFO. This is a selfie that we took at the photo booth. Apparently all of my friends couldn't see me in the crowd because I was short, so they looked for me by looking for a bun :( I don't know how to feel about that..."}
+        ]
 
     },
 
     {
         "Title": "WINTER QUARTER 2023",
         "reflection": "More of my adventures coming soon!",
-        "gallery_img_1":"",
-        "gallery_reflection_1":"",
-        "gallery_img_2":"",
-        "gallery_reflection_2":"",
-        "gallery_img_3":"",
-        "gallery_reflection_3":"",
-        "gallery_img_4":"",
-        "gallery_reflection_4":"",
-        "gallery_img_5":"",
-        "gallery_reflection_5":""
+        "gallery": [
+            {"gallery_img":"\\img\\journey\\Junior Year\\Winter\\465.jpg", "gallery_alt": "A page with the words time, technology, and design written in crayon", "gallery_reflection":"One of the classes that I took this year - just for the fun of it - was INFO  465, also known as Time, Technology, and Design. Rather than a more tech-based INFO class, this was actually more artsy and design based. On the first day of class, our Professor just handed us each a composition notebook and a bunch of art supplies. All we had to do was draw so we were encouraged to explore different mediums different materials and not worry about mistakes. I think this is a really interesting way of approaching design because a lot of the times people put an emphasis on perfectionism rather than the act of creation. Trying is always necessary before you get any better and one thing that I did notice was that at the end of the year, my drawings were actually a lot more cohesive and they felt a lot more put together even though I was using the same process as I was at the start of the year"}, 
+            {"gallery_img":"\\img\\journey\\Junior Year\\Winter\\Capstone.jpeg", "gallery_alt": "me, emiri and gisele looking sad at the camera while melina smiles", "gallery_reflection":"My Capstone team was Melina, Emiri, Gisele and me and we called ourselves iBANT which is also the abbreviation of our group chat which is named (I'm bad at naming things) I don't know how the name of our group chat stuck but it's kind of funny to see that it has stuck long enough to become our Capstone Project's name. This picture was taken when we all decided that we were bored and tired of sitting in 4 hour long Capstone class meetings and we took a picture just to show how bored and done we were. I don't think Melina got the memo loll."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Winter\\penny in the fountain.jpg", "gallery_alt": "a group of sensior citizens smiling and throwing pennies into drumheller fountain", "gallery_reflection":"I took a class called Grand challenges of engineering and I initially assumed that it would be teaching us about engineering business models. Our final project was similar to that, but before we got there we actually had a smaller project where the professor gave each group $5 and we had to create the most impact with it. We could define impact in any way we wanted and we just had to create as much impact as possible. My group decided to turn those $5 into 500 pennies and we handed out the pennies to people around campus so that they could flip the coins into the fountain and make a wish. This is a picture of a senior walking group that we came across that was really excited to flip the coins into the fountain and they even let us take a picture of them."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Winter\\portland.jpg", "gallery_alt": "Vidhi pamela and I taking a selfie in portland", "gallery_reflection":"This quarter I also took my first solo trip with my friends instead of my parents. Vidhi, Pamela and I went to Portland by bus and we stayed for the long weekend. The first day, we woke up really early and we took the bus from International District and then made the long ride all the way to Portland. Once we got to Portland we were able to check into our hotel and then we just walked around until we got hungry, ate some food and then just explored the downtown area. the second day we went to Multnomah Falls and did a little bit of a hike, we took some more pictures and then came back for more food and more shopping. I hope I get to do more solo trips or trips with my friends in the future!"}, 
+            {"gallery_img":"\\img\\journey\\Junior Year\\Winter\\red square.jpg", "gallery_alt": "A goldendoodle sitting on my lap while I sit in on a zoom class", "gallery_reflection":"Sometimes, it's hard to find connection in online classes. One of the best ways I have seen to do this is through introducing pets! Although sometimes, Mango just gets the urge to sit in my lap when he doesn't get enough attention from me."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Winter\\surprise party.jpg", "gallery_alt": "Tarini and I cutting cake on our 21st", "gallery_reflection":"This year has to be the year of surprise parties. All of my friends turned 21 at around the same time and obviously all of us had to have our own surprise parties. With one birthday being on December 29th, the next one being on January 2nd and the next one being on January 4th, then January 8th, the parties just seemed to keep piling on and on and on. We were planning surprise parties during other parties and all of them turned out well, but if I never plan another surprise party again it will be too soon. This picture was taken on me and Tarini's 21st birthday! Vidhi and Sameera took us to Din Tai Fung where we had dinner and then on the way back we were surprised because everyone was in my apartment with cake and decorations"}
+        ]
 
     }, 
     
@@ -35,31 +31,27 @@
     {
         "Title": "SPRING QUARTER 2023",
         "reflection": "More of my adventures coming soon!",
-        "gallery_img_1":"",
-        "gallery_reflection_1":"",
-        "gallery_img_2":"",
-        "gallery_reflection_2":"",
-        "gallery_img_3":"",
-        "gallery_reflection_3":"",
-        "gallery_img_4":"",
-        "gallery_reflection_4":"",
-        "gallery_img_5":"",
-        "gallery_reflection_5":""
+        "gallery": [
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\campus pretty.jpg", "gallery_alt": "A table showing the list of classes I want to take each quarter", "gallery_reflection":"This is the tentative four-year plan I made in HONORS 100. The different colors on the plan are for different requirements I want to meet, whether it is for the Interdisciplinary Honors program, or for the Informatics program. This plan has helped me better understand what I want to accomplish academically throughout my time at UW, and has helped me visualize the workload I will have for each quarter over the next four years. "}, 
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\Dean club dinner.jpeg", "gallery_alt": "A stylized woman looking at an hourglass on top of a list of papers", "gallery_reflection":"​This is the cover page image for my INFO 200 group project. While this project has helped me understand more about the different components of informatics, it has also helped me build connections within the iSchool. Through working on our project, I have been able to build friendships with all my team members, even though we have never met in person. I have also been able to understand more about what I can contribute to a team and how that can benefit others in my group."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\Fossils.jpg", "gallery_alt": "A zoom screen showing all of the WINFO Officers", "gallery_reflection":"This is a screenshot from the first Winfo (Women in Informatics) meeting I attended as a First Year Representative! Being a part of Winfo has helped me become more confident with who I am, and has also given me a sense of involvement within the iSchool community at UW. My role as an FYR is to plan events each quarter, and to shadow the other officers so I can see what roles I am interested in for the future. This quarter, we hosted a social event called \"Chatsgiving\" where we got together and made hand turkeys with new admits to the iSchool!"},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\Graduation.jpg", "gallery_alt": "A map of the united states with blue dots over Washington, Wyoming, Michigan, and Maryland", "gallery_reflection":"​This is a screenshot of the results of one of the exercises we did for INFO 201. I was nervous to take this class because I knew it would be in R, a programming language that I had no experience with. However, after taking this class, I have learned how to study for things that I do not have experience with, watching the lectures and searching up terms that I find confusing, so that I can contribute to my own learning. I have also learned how to use important tools, like git, for collaboration, which is an important skill to understand for the workplace."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\Husky 100.jpg", "gallery_alt": "A goldendoodle sleeping on a bed", "gallery_reflection":"Taking classes online often means long hours looking at my computer. Luckily, I always get reminders to take a break and have a litte nap from Mango! I think he has gotten a lot more clingy since he's now used to us being at home, so I have more of an opportunity to take cute pictures like this."}, 
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\team iBANT.jpeg", "gallery_alt": "A goldendoodle sitting on my lap while I sit in on a zoom class", "gallery_reflection":"Sometimes, it's hard to find connection in online classes. One of the best ways I have seen to do this is through introducing pets! Although sometimes, Mango just gets the urge to sit in my lap when he doesn't get enough attention from me."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\python.jpg", "gallery_alt": "", "gallery_reflection":"This picture was from the first time I went to campus as a UW student! It was so exciting to be a part of dawg daze, and to explore all of the different parts of campus with Sai and Anjul. The vibes felt different, and I knew it was going to be the start of a great year."},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Spring\\Hydrology.jpg", "gallery_alt": "Roshni standing in front of the second pillar in Sylvan Grove", "gallery_reflection":"While I didn't get much of a \"start\" at UW, I did get to go to campus during Dawg Daze at the start of the year. I took the opportunity to go to Sylvan Grove and touch the second pillar - Industry. I want to use my college experience to gain the skills I need in order to be successful in my career, as well as the ability to be industrious and resilient to challenges."}
+        ]
 
     }, 
     {
         "Title": "SUMMER QUARTER 2021",
         "reflection": "More of my adventures coming soon!",
-        "gallery_img_1":"",
-        "gallery_reflection_1":"",
-        "gallery_img_2":"",
-        "gallery_reflection_2":"",
-        "gallery_img_3":"",
-        "gallery_reflection_3":"",
-        "gallery_img_4":"",
-        "gallery_reflection_4":"",
-        "gallery_img_5":"",
-        "gallery_reflection_5":""
+        "gallery": [
+            {"gallery_img":"\\img\\journey\\Junior Year\\Summer\\Music.jpg", "gallery_alt": "Roshni performing in California", "gallery_reflection":"A few months ago, I finally restarted Music classes as a mother's day gift to my mom. I did this by learning 9 Annamacharya krithis and participating in a performace over the summer! It was a hectic day because I flew to California at 6 in the morning with my mom, and then flew back at 9pm. The performance was at 5 pm and I think we did pretty good overall. I really enjoyed singing and I think I will continue my lessons. "},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Summer\\Spheres.jpg", "gallery_alt": "A view of the spheres from outside my window", "gallery_reflection":"This summer for my internship I switched teams and worked in the seattle office instead of in bellevue. I had a much better experience, and I loved going into the office. I feel like I was able to make a lot more friends and I had a gorgeous view from outside the window near my desk!"},
+            {"gallery_img":"\\img\\journey\\Junior Year\\Summer\\Superstar Rajini.jpg", "gallery_alt": "A movie screen saying Super Star Rajini", "gallery_reflection":"One of my favorite activities to do with my mom is to watch Tamil masala movies, where there is a hero that wins a lot and defies the laws of physics. To me the plot is often less relevant than the idea of going to the movies and enjoying the time i spend with family. "}
+           
+        ]
 
     }
     

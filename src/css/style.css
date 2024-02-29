@@ -450,7 +450,9 @@ align-items: flex-start; */
 
 .img-fluid {
     max-width: 33%;
+    min-width: 30%;
 }
+
  
 
 /*Projects Page*/
