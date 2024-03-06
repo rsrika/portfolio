@@ -65,7 +65,7 @@ export function QuarterlyReflection(props) {
     
     let galleryContent = quarterData.gallery ?
         <div>
-              <Carousel variant="dark">
+              <Carousel variant="dark" interval={null}>
                 {quarterData.gallery.map((slide, index) => {
                     console.log("PATHNAME", window.location.href)
                     console.log("SLIDE", slide.gallery_img)
@@ -74,7 +74,7 @@ export function QuarterlyReflection(props) {
                         <Carousel.Item key={index}>
                             <div className='row'>
                                 <div className='col centered-img px-5'>
-                                    <img className="d-block" src={slide.gallery_img} alt={`Slide ${index + 1}, ${slide.gallery_alt}`} />
+                                    <img className="d-block carousel-image" src={slide.gallery_img} alt={`Slide ${index + 1}, ${slide.gallery_alt}`} />
                                 </div>
                                 <div className='col bg-pink white-text centered-text d-flex px-5'>
                                     <p>{slide.gallery_reflection}</p>
