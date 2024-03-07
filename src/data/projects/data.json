@@ -2,6 +2,15 @@
 [
   {
     "ProjectNumber": 1,
+    "ProjectName": "BACtracker",
+    "ProjectRole": "Full Stack Developer, Designer, Researcher",
+    "Tags": "React Native, Firebase, Usability Testing, Unit Testing, Software Architecture",
+    "Image1": "/img/projects/BACtracker/cover_img.png",
+    "ProjectOverview": "Created a mobile application that serves as a toolkit on safe alcohol consumption practices for young adults. The app provides a hub of information regarding alcohol consumption, safety practices, and general resources."
+    
+  },
+  {
+    "ProjectNumber": 2,
     "ProjectName": "Conscious",
     "ProjectRole": "Front-End Developer",
     "Tags": "React.js, Usability Testing, Unit Testing, Software Architecture",
@@ -10,7 +19,7 @@
     
   },
   {
-    "ProjectNumber": 2,
+    "ProjectNumber": 3,
     "ProjectName": "CandySearcher",
     "ProjectRole": "Front-End Developer",
     "Tags": "React.js, HTML/CSS, JavaScript, Firebase",

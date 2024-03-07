@@ -25,16 +25,19 @@ export function Home(props) {
                 </div>
                 <div className='col col-text'>
                     
-                    <h1 className='big-letters'>ROSHNI SRIKANTH</h1>
+                    <h1 className='big-letters'>Hi, I'm Roshni! <span role="img" aria-label="wave">👋🏾</span></h1>
                     <br/>
                     <p className="intro">
-                        Hi! I’m Roshni (she/her), welcome to my portfolio! I’m a senior at the University of Washington studying Informatics with a minor in Environmental Science and Terrestrial Resource Management (ESRM). At UW, I am part of the Interdisciplinary Honors program and a TA for INFO 200 (Intellectual Foundations of Informatics). I’m also serving as a co-president of Women in Informatics (WINFO).
+                        
+                        <span role="img" aria-label="star">✨</span> I'm about to graduate with a major in Informatics and a minor in Environmental Science and Terrestrial Resource Management from the University of Washington
                         <br/><br/>
-                        I’ve always been fascinated by the intersection of people, technology, and sustainability. Throughout my childhood, I was exposed to different aspects of technology and have always wanted to create positive change in this space. I aspire to become a design engineer so that I can integrate my technical abilities with the voice of the user. 
+                        <span role="img" aria-label="star">✨</span> Beyond the lines of code, I'm driven by a deep-seated belief in the power of technology to transform lives and communities. 
                         <br/><br/>
-                        In my spare time, I love to play with my dog, Mango, watch TV shows (Schitt's Creek and Only Murders in the Building🎭 are some of my favs), and explore new food places with my friends!
+                        <span role="img" aria-label="star">✨</span> I'm driven by empathy - being kind is not just a soft skill: it is the foundation of effective communication, collaboration, and understanding
                         <br/><br/>
-                        Feel free to reach out to me at <a className="pink" href = "mailto: rosheenee@gmail.com">rosheenee@gmail.com</a> if you want to chat!
+                        <span role="img" aria-label="star">✨</span> In my free time, you can find me hanging out with my dog Mango (he's really cute 🐕), or trying out new recipes with my friends!
+                        <br/><br/>
+                        <span role="img" aria-label="star">✨</span>Welcome to my portfolio! Feel free to reach out to me at <a className="pink" href = "mailto: rosheenee@gmail.com">rosheenee@gmail.com</a> if you want to chat!
                     </p>
                     <br/>
                     <button className="btn pink-button"

@@ -7,11 +7,15 @@ import {useParams} from 'react-router-dom';
 export function IndvProjects(props) {
     let urlParams = useParams();
     let projectName = urlParams.projectname; 
+    
 
+    
     let project =  props.data.filter((p) => {
         return p.ProjectName === projectName;
     });
+    
     project = project[0];
+    
 
 
     function goToWebsite(url) {
